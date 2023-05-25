@@ -101,3 +101,11 @@ if (isPressedOnWall(self)) {
       wall_jump_timer = 0;
     }
 }
+
+// Adjust facing direction
+if (sign(velocity_x) != 0) {
+  last_x_dir = sign(velocity_x);
+}
+
+// Animation tick
+sine_tick += 1;

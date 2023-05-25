@@ -2,6 +2,8 @@
 velocity_x = 0;
 velocity_y = 0;
 
+last_x_dir = 1;
+
 max_speed = 5;
 horizontal_acceleration = 2;
 
@@ -18,3 +20,5 @@ wall_jump_last_dir = 0;
 
 // Timer for jump grace periods
 last_ground_timer = 0;
+
+sine_tick = 0;

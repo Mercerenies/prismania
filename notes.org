@@ -21,7 +21,7 @@
 
     Actions available by getting the corresponding upgrade
     + Archery (left mouse click is now a ranged attack; infinite arrows)
-    + Bullet time (time slows down when you use archery)
+    + Bullet time (time slows down when you use archery in air)
     + Super strength (can pick up and throw larger objects with right mouse as well)
     + Double jump
     + Wall jumps
