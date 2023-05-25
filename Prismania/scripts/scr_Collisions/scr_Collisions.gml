@@ -24,3 +24,13 @@ function isOnGround(source) {
   source.y -= 1;
   return above_wall && !currently_in_wall;
 }
+
+function isPressedOnWall(source) {
+  var currently_in_wall = collidesWith(source, par_Solid);
+  source.x += 1;
+  var right_wall = collidesWith(source, par_Solid);
+  source.x -= 2;
+  var left_wall = collidesWith(source, par_Solid);
+  source.x += 1;
+  return (!currently_in_wall) && (left_wall || right_wall);
+}
