@@ -1,3 +1,31 @@
 
 * PRISMANIA
   Entry for GMC Jam 49 by Mercerenies
+  + Metroidvania-style platformer
+** STORY
+   The land of Prismania, inhabited by prisms, has long stood at the
+   precipice of the mirror land. The two dimensions have lived at
+   peace, but the denizens of the mirror land suddenly stole all
+   reflective equipment from Prismania and retreated to their own
+   dimension. The Prismanian government fears the worst, so the player
+   (Prisman, of course) must travel to the mirror lands and put a stop
+   to their evil machinations.
+** GAMEPLAY
+   The player moves through the map to get to the end.
+*** PLAYER ACTIONS
+    Those available from the start of the game:
+    + Movement (WASD)
+    + Jump (WASD)
+    + Short range punching attack (left mouse click)
+    + Pick up / throw small objects (right mouse click)
+
+    Actions available by getting the corresponding upgrade
+    + Archery (left mouse click is now a ranged attack; infinite arrows)
+    + Bullet time (time slows down when you use archery)
+    + Super strength (can pick up and throw larger objects with right mouse as well)
+    + Double jump
+    + Wall jumps
+
+    Hitting a crystal (with either the punching attack or an arrow)
+    causes it to activate or deactivate. An active crystal transports
+    a short range around it into the mirror land.
