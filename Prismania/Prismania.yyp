@@ -12,8 +12,10 @@
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":1,},
     {"id":{"name":"spr_PlayerTorso","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},"order":3,},
     {"id":{"name":"spr_PlayerMask","path":"sprites/spr_PlayerMask/spr_PlayerMask.yy",},"order":0,},
+    {"id":{"name":"obj_MeleeStrike","path":"objects/obj_MeleeStrike/obj_MeleeStrike.yy",},"order":1,},
     {"id":{"name":"ctrl_UnlockedAbilities","path":"objects/ctrl_UnlockedAbilities/ctrl_UnlockedAbilities.yy",},"order":3,},
     {"id":{"name":"spr_PlayerHead","path":"sprites/spr_PlayerHead/spr_PlayerHead.yy",},"order":2,},
+    {"id":{"name":"spr_MeleeStrike","path":"sprites/spr_MeleeStrike/spr_MeleeStrike.yy",},"order":0,},
     {"id":{"name":"par_Solid","path":"objects/par_Solid/par_Solid.yy",},"order":2,},
     {"id":{"name":"ctrl_Init","path":"objects/ctrl_Init/ctrl_Init.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -41,6 +43,7 @@
     {"folderPath":"folders/Utility.yy","order":12,"resourceVersion":"1.0","name":"Utility","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Walls.yy","order":13,"resourceVersion":"1.0","name":"Walls","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Control.yy","order":14,"resourceVersion":"1.0","name":"Control","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Player/Attacks.yy","order":4,"resourceVersion":"1.0","name":"Attacks","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="7.8816616"
-     inkscape:cx="395.03091"
-     inkscape:cy="709.24131"
+     inkscape:zoom="15.763323"
+     inkscape:cx="351.86108"
+     inkscape:cy="691.2248"
      inkscape:window-width="1920"
      inkscape:window-height="979"
-     inkscape:window-x="1920"
+     inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -289,5 +289,19 @@
        inkscape:transform-center-y="0.05085621"
        d="m 168.33212,30.018636 -5.89341,4.21846 -6.53049,-2.26148"
        sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#7d7d7d;stroke-width:0.801558;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 90.666579,183.70465 c 0,0 1.619417,0.58519 3.363571,0.12792 1.744159,-0.45723 2.3775,-1.38586 2.3775,-1.38586"
+       id="path594"
+       inkscape:export-filename="MeleeStrike.png"
+       inkscape:export-xdpi="96.2"
+       inkscape:export-ydpi="96.2" />
+    <path
+       style="fill:none;stroke:#7d7d7d;stroke-width:0.801558;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 91.158693,181.52832 c 0,0 1.700799,-0.26877 3.327183,0.50973 1.626396,0.77845 2.072931,1.81 2.072931,1.81"
+       id="path1150"
+       inkscape:export-filename="MeleeStrike.png"
+       inkscape:export-xdpi="96.2"
+       inkscape:export-ydpi="96.2" />
   </g>
 </svg>

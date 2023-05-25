@@ -21,4 +21,6 @@ wall_jump_last_dir = 0;
 // Timer for jump grace periods
 last_ground_timer = 0;
 
+melee_attack_cooldown = 0;
+
 sine_tick = 0;

@@ -109,3 +109,14 @@ if (sign(velocity_x) != 0) {
 
 // Animation tick
 sine_tick += 1;
+
+// Melee attack (TODO Disable in favor of arrows if unlocked)
+if (leftMouseReleased() && (melee_attack_cooldown <= 0)) {
+  with (instance_create_layer(x + 8 + last_x_dir * 28, y + 12, "Instances", obj_MeleeStrike)) {
+    image_xscale = other.last_x_dir;
+  }
+  melee_attack_cooldown = 30;
+}
+if (melee_attack_cooldown > 0) {
+  melee_attack_cooldown -= 1;
+}
