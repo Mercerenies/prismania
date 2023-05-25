@@ -1,0 +1,2 @@
+
+#macro GAMESPEED 60
