@@ -14,17 +14,17 @@
    The player moves through the map to get to the end.
 *** PLAYER ACTIONS
     Those available from the start of the game:
-    + Movement (WASD)
-    + Jump (WASD)
-    + Short range punching attack (left mouse click)
-    + Pick up / throw small objects (right mouse click)
+    + [X] Movement (WASD)
+    + [X] Jump (WASD)
+    + [X] Short range punching attack (left mouse click)
+    + [ ] Pick up / throw small objects (right mouse click)
 
     Actions available by getting the corresponding upgrade
-    + Archery (left mouse click is now a ranged attack; infinite arrows)
-    + Bullet time (time slows down when you use archery in air)
-    + Super strength (can pick up and throw larger objects with right mouse as well)
-    + Double jump
-    + Wall jumps
+    + [ ] Archery (left mouse click is now a ranged attack; infinite arrows)
+    + [ ] Bullet time (time slows down when you use archery in air)
+    + [ ] Super strength (can pick up and throw larger objects with right mouse as well)
+    + [X] Double jump
+    + [X] Wall jumps
 
     Hitting a crystal (with either the punching attack or an arrow)
     causes it to activate or deactivate. An active crystal transports

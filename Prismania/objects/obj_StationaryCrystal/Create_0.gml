@@ -9,6 +9,7 @@ radius = 0;
 
 onStrike = function() {
   is_active = !is_active;
+  return true;
 }
 
 onDraw = function(world) {

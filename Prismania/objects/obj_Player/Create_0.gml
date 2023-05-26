@@ -32,8 +32,8 @@ _repelAwayFrom = function(collisions) {
   }
   if ((xx != 0) || (yy != 0)) {
     var length = sqrt(sqr(xx) + sqr(yy));
-    velocity_x = - 2 * xx / length;
-    velocity_y = - 2 * yy / length;
+    x -= 3 * xx / length;
+    y -= 3 * yy / length;
   }
 }
 
@@ -60,5 +60,8 @@ wall_jump_last_dir = 0;
 last_ground_timer = 0;
 
 melee_attack_cooldown = 0;
+
+ranged_attack_cooldown = 0;
+bow_out = false;
 
 sine_tick = 0;

@@ -6,7 +6,7 @@ x += velocity_x;
 y += velocity_y;
 
 // Gravity
-velocity_y += 1.2;
+velocity_y += GRAVITY_CONSTANT;
 
 // Inputs
 if (keyLeft()) {
@@ -18,8 +18,8 @@ if (keyRight()) {
 
 // Friction
 if ((!keyLeft()) && (!keyRight())) {
-  velocity_x *= 0.85;
-  if (abs(velocity_x) < 0.1) {
+  velocity_x *= 0.8;
+  if (abs(velocity_x) < 0.2) {
     velocity_x = 0;
   }
 }
@@ -116,8 +116,8 @@ if (sign(velocity_x) != 0) {
 // Animation tick
 sine_tick += 1;
 
-// Melee attack (TODO Disable in favor of arrows if unlocked)
-if (leftMouseReleased() && (melee_attack_cooldown <= 0)) {
+// Melee attack
+if (leftMouseReleased() && (melee_attack_cooldown <= 0) && !ctrl_UnlockedAbilities.archery) {
   with (instance_create_layer(x + 8 + last_x_dir * 28, y + 12, "Instances", obj_MeleeStrike)) {
     image_xscale = other.last_x_dir;
   }
@@ -125,6 +125,27 @@ if (leftMouseReleased() && (melee_attack_cooldown <= 0)) {
 }
 if (melee_attack_cooldown > 0) {
   melee_attack_cooldown -= 1;
+}
+
+// Ranged attack
+if (ctrl_UnlockedAbilities.archery) {
+  if (bow_out) {
+    if (leftMouseReleased()) {
+      var dir = point_direction(x + 8, y + 12, mouse_x, mouse_y);
+      with (instance_create_layer(x + 8, y + 12, "Instances", obj_Arrow)) {
+        velocity_x = lengthdir_x(10, dir);
+        velocity_y = lengthdir_y(10, dir);
+      }
+      bow_out = false;
+    }
+  } else {
+    if (leftMousePressed() && (ranged_attack_cooldown <= 0) && (instance_number(obj_Arrow) < 3)) {
+      bow_out = true;
+    }
+  }
+}
+if (ranged_attack_cooldown > 0) {
+  ranged_attack_cooldown -= 1;
 }
 
 // DEBUG CODE
