@@ -39,20 +39,91 @@ function _isCollisionReal(object1, object2) {
   var rect_y2 = min(object1.bbox_bottom, object2.bbox_bottom);
   var rect_w = rect_x2 - rect_x1;
   var rect_h = rect_y2 - rect_y1;
+  
+  var crystals = []
+  var crystals_i = 0;
+  with (par_PhysicalObject) {
+    var crystal_data = getCrystalData();
+    if (!is_undefined(crystal_data)) {
+      crystals[crystals_i++] = crystal_data;
+    }
+  }
 
   if (common_worlds & World.MIRROR) {
-    // Check for collisions with any of the crystal data
-    with (par_PhysicalObject) {
-      var crystal_data = getCrystalData();
-      if (!is_undefined(crystal_data)) {
-        if (rectangleIntersectsCircle(rect_x1, rect_y1, rect_w, rect_h, crystal_data.xx, crystal_data.yy, crystal_data.radius)) {
-          return true;
-        }
-      }
+    // Imperfect but reasonable algorithm: test the following:
+    // * The four vertices of the rectangle
+    // * The four midpoints of the perimeter
+    // * The center
+    if (_pointInCrystals(rect_x1, rect_y1, crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(rect_x2, rect_y1, crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(rect_x2, rect_y2, crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(rect_x1, rect_y2, crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(mean(rect_x1, rect_x2), mean(rect_y1, rect_y2), crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(rect_x1, mean(rect_y1, rect_y2), crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(rect_x2, mean(rect_y1, rect_y2), crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(mean(rect_x1, rect_x2), rect_y1, crystals)) {
+      return true;
+    }
+    if (_pointInCrystals(mean(rect_x1, rect_x2), rect_y2, crystals)) {
+      return true;
     }
   }
   if (common_worlds & World.REGULAR) {
-    return true; // TODO
+    // Imperfect but reasonable algorithm: test the following:
+    // * The four vertices of the rectangle
+    // * The four midpoints of the perimeter
+    // * The center
+    if (!_pointInCrystals(rect_x1, rect_y1, crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(rect_x2, rect_y1, crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(rect_x2, rect_y2, crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(rect_x1, rect_y2, crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(mean(rect_x1, rect_x2), mean(rect_y1, rect_y2), crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(rect_x1, mean(rect_y1, rect_y2), crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(rect_x2, mean(rect_y1, rect_y2), crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(mean(rect_x1, rect_x2), rect_y1, crystals)) {
+      return true;
+    }
+    if (!_pointInCrystals(mean(rect_x1, rect_x2), rect_y2, crystals)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function _pointInCrystals(point_x, point_y, crystal_array) {
+  for (var i = 0; i < array_length(crystal_array); i++) {
+    var crystal_data = crystal_array[i];
+    if (point_in_circle(point_x, point_y, crystal_data.xx, crystal_data.yy, crystal_data.radius)) {
+      return true;
+    }
   }
   return false;
 }

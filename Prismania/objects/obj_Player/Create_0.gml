@@ -23,8 +23,12 @@ _repelAwayFrom = function(collisions) {
   var yy = 0;
   for (var i = 0; i < ds_list_size(collisions); i++) {
     var c = collisions[| i];
-    xx += (mean(c.bbox_left, c.bbox_right) - center_x);
-    yy += (mean(c.bbox_top, c.bbox_bottom) - center_y);
+    var collision_center_x1 = mean(max(bbox_left, c.bbox_left));
+    var collision_center_y1 = mean(max(bbox_top, c.bbox_top));
+    var collision_center_x2 = mean(min(bbox_right, c.bbox_right));
+    var collision_center_y2 = mean(min(bbox_bottom, c.bbox_bottom));
+    xx += (mean(collision_center_x1, collision_center_x2) - center_x);
+    yy += (mean(collision_center_y1, collision_center_y2) - center_y);
   }
   if ((xx != 0) || (yy != 0)) {
     var length = sqrt(sqr(xx) + sqr(yy));
