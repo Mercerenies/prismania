@@ -14,6 +14,67 @@ function getCollisions(source, dest, lst) {
   with (source) {
     instance_place_list(x, y, dest, lst, false);
   }
+  // Now filter out collisions that aren't in the right worlds.
+  // (Iterate from the back to avoid unnecessary shifting of
+  // list elements)
+  for (var i = ds_list_size(lst) - 1; i >= 0; i--) {
+    var curr = lst[| i];
+    if (!_isCollisionReal(source, curr)) {
+      ds_list_delete(lst, i);
+    }
+  }
+}
+
+// Note: All collisions include boundaries on all sides.
+function _isCollisionReal(object1, object2) {
+  var common_worlds = object1.getWorlds() & object2.getWorlds();
+  if (common_worlds == World.MIRROR | World.REGULAR) {
+    // Easy case, don't do complicated stuff and just return true.
+    return true;
+  }
+
+  var rect_x1 = max(object1.bbox_left, object2.bbox_left);
+  var rect_y1 = max(object1.bbox_top, object2.bbox_top);
+  var rect_x2 = min(object1.bbox_right, object2.bbox_right);
+  var rect_y2 = min(object1.bbox_bottom, object2.bbox_bottom);
+  var rect_w = rect_x2 - rect_x1;
+  var rect_h = rect_y2 - rect_y1;
+
+  if (common_worlds & World.MIRROR) {
+    // Check for collisions with any of the crystal data
+    with (par_PhysicalObject) {
+      var crystal_data = getCrystalData();
+      if (!is_undefined(crystal_data)) {
+        if (rectangleIntersectsCircle(rect_x1, rect_y1, rect_w, rect_h, crystal_data.xx, crystal_data.yy, crystal_data.radius)) {
+          return true;
+        }
+      }
+    }
+  }
+  if (common_worlds & World.REGULAR) {
+    return true; // TODO
+  }
+  return false;
+}
+
+function rectangleIntersectsCircle(rx, ry, rw, rh, cx, cy, rad) {
+  // https://stackoverflow.com/a/402010/2288659
+  var dx = abs(cx - rx);
+  var dy = abs(cy - ry);
+  if (dx > rw / 2 + rad) {
+    return false;
+  }
+  if (dy > rh / 2 + rad) {
+    return false;
+  }
+  if (dx <= rw / 2) {
+    return true;
+  }
+  if (dy <= rh / 2) {
+    return true;
+  }
+  var corner_sq = sqr(dx - rw / 2) + sqr(dy - rh / 2);
+  return corner_sq <= sqr(rad);
 }
 
 function moveToCollision(source, vx, vy, dest, maxtries) {

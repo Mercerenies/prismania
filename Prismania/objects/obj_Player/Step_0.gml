@@ -29,7 +29,6 @@ last_ground_timer += 1;
 
 // Collisions
 if (collidesWith(self, par_Solid)) {
-  var xcurrent = x;
   var ycurrent = y;
   y = yprev;
   if (collidesWith(self, par_Solid)) {
@@ -41,6 +40,13 @@ if (collidesWith(self, par_Solid)) {
       // Corner collision
       velocity_x = 0;
       velocity_y = 0;
+      var lst = ds_list_create();
+      getCollisions(self, par_Solid, lst);
+      if (!ds_list_empty(lst)) {
+        // If still inside, repel self away from the objects in question.
+        _repelAwayFrom(lst);
+      }
+      ds_list_destroy(lst);
     } else {
       // X collision
       moveToCollision(self, sign(velocity_x) * 0.6, 0, par_Solid, 20);
@@ -119,4 +125,9 @@ if (leftMouseReleased() && (melee_attack_cooldown <= 0)) {
 }
 if (melee_attack_cooldown > 0) {
   melee_attack_cooldown -= 1;
+}
+
+// DEBUG CODE
+if (keyboard_check(vk_f2)) {
+  room_restart();
 }

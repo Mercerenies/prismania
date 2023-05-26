@@ -29,3 +29,7 @@
     Hitting a crystal (with either the punching attack or an arrow)
     causes it to activate or deactivate. An active crystal transports
     a short range around it into the mirror land.
+
+    Note: Cannot use attacks, double jump, or wall jump while carrying
+    something. Basically all you can do is drop it, move, and jump
+    normally once.

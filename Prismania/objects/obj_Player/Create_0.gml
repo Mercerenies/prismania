@@ -15,6 +15,24 @@ onDraw = function(world) {
   draw_sprite_ext(head, 0, x + 8 , y + 8 + yadjust, last_x_dir, 1, 0, c_white, 1);
 }
 
+_repelAwayFrom = function(collisions) {
+  // Calculate average direction to the collided objects.
+  var center_x = mean(bbox_left, bbox_right);
+  var center_y = mean(bbox_top, bbox_bottom);
+  var xx = 0;
+  var yy = 0;
+  for (var i = 0; i < ds_list_size(collisions); i++) {
+    var c = collisions[| i];
+    xx += (mean(c.bbox_left, c.bbox_right) - center_x);
+    yy += (mean(c.bbox_top, c.bbox_bottom) - center_y);
+  }
+  if ((xx != 0) || (yy != 0)) {
+    var length = sqrt(sqr(xx) + sqr(yy));
+    velocity_x = - 2 * xx / length;
+    velocity_y = - 2 * yy / length;
+  }
+}
+
 velocity_x = 0;
 velocity_y = 0;
 

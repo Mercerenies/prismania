@@ -16,3 +16,8 @@ onDraw = function(world_version) {
 getCrystalData = function() {
   return undefined;
 }
+
+// Return the bitmask of worlds this object exists in.
+getWorlds = function() {
+  return World.REGULAR | World.MIRROR;
+}
