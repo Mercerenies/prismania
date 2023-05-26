@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_PhysicalObject",
-    "path": "objects/par_PhysicalObject/par_PhysicalObject.yy",
+    "name": "par_Solid",
+    "path": "objects/par_Solid/par_Solid.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Walls.yy",
+    "name": "Crystal",
+    "path": "folders/Crystal.yy",
   },
   "resourceVersion": "1.0",
-  "name": "par_Solid",
+  "name": "par_Crystal",
   "tags": [],
   "resourceType": "GMObject",
 }

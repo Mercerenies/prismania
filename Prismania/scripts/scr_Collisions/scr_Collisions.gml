@@ -1,8 +1,18 @@
 
 // dest can be an object type or a specific instance ID.
 function collidesWith(source, dest) {
+  // Use a single global ds_list to avoid a bunch of unnecessary allocations
+  // when all we want is whether or not one exists.
+  getCollisions(source, dest, global.collisions_list);
+  return !ds_list_empty(global.collisions_list);
+}
+
+// Return value is only good until the next getCollisions call,
+// for efficiency reasons.
+function getCollisions(source, dest, lst) {
+  ds_list_clear(lst);
   with (source) {
-    return place_meeting(x, y, dest);
+    instance_place_list(x, y, dest, lst, false);
   }
 }
 

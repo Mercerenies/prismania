@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_MeleeStrike",
-    "path": "sprites/spr_MeleeStrike/spr_MeleeStrike.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,18 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Attacks",
-    "path": "folders/Player/Attacks.yy",
+    "name": "Abstract Parents",
+    "path": "folders/Abstract Parents.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_MeleeStrike",
+  "name": "par_PhysicalObject",
   "tags": [],
   "resourceType": "GMObject",
 }
