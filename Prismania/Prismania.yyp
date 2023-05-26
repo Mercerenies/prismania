@@ -34,6 +34,7 @@
     {"id":{"name":"par_Solid","path":"objects/par_Solid/par_Solid.yy",},"order":1,},
     {"id":{"name":"ctrl_Init","path":"objects/ctrl_Init/ctrl_Init.yy",},"order":1,},
     {"id":{"name":"par_PhysicalObject","path":"objects/par_PhysicalObject/par_PhysicalObject.yy",},"order":0,},
+    {"id":{"name":"spr_Bow","path":"sprites/spr_Bow/spr_Bow.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

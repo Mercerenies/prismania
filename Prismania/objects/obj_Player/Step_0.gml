@@ -109,7 +109,12 @@ if (isPressedOnWall(self)) {
 }
 
 // Adjust facing direction
-if (sign(velocity_x) != 0) {
+if (bow_out) {
+  last_x_dir = sign(mouse_x - x);
+  if (last_x_dir == 0) {
+    last_x_dir = 1;
+  }
+} else if (sign(velocity_x) != 0) {
   last_x_dir = sign(velocity_x);
 }
 
@@ -146,6 +151,13 @@ if (ctrl_UnlockedAbilities.archery) {
 }
 if (ranged_attack_cooldown > 0) {
   ranged_attack_cooldown -= 1;
+}
+
+// Bow drawn animation
+if (bow_out) {
+  bow_out_time += 1;
+} else {
+  bow_out_time = 0;
 }
 
 // DEBUG CODE
