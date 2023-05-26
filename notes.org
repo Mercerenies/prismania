@@ -20,7 +20,7 @@
     + [ ] Pick up / throw small objects (right mouse click)
 
     Actions available by getting the corresponding upgrade
-    + [ ] Archery (left mouse click is now a ranged attack; infinite arrows)
+    + [X] Archery (left mouse click is now a ranged attack; infinite arrows)
     + [ ] Bullet time (time slows down when you use archery in air)
     + [ ] Super strength (can pick up and throw larger objects with right mouse as well)
     + [X] Double jump
@@ -33,3 +33,38 @@
     Note: Cannot use attacks, double jump, or wall jump while carrying
     something. Basically all you can do is drop it, move, and jump
     normally once.
+*** FEATURES
+    + [X] Player
+    + [X] Walls
+      - [X] Full walls
+      - [X] Regular-world only
+      - [X] Mirror world only
+    + [ ] Generic enemies who walk left/right
+      - [ ] Exist in both worlds
+      - [ ] Variant that's friendly in regular but evil in mirror
+      - [ ] Flying variant patrols left and right without gravity
+    + [ ] Enemies who fire arrows at you
+      - [ ] Exist in both worlds
+      - [ ] Variant that's friendly in regular but evil in mirror
+      - [ ] Flying variant patrols left and right without gravity
+    + [ ] Turrets
+      - [ ] Exist in both worlds
+      - [ ] Exist only in the regular world
+      - [ ] Exist only in the mirror world
+      - Note: Turret ammo only exists in the world the turret does (as
+        opposed to arrows fired by a Prismanian, which exist in both)
+    + [ ] Lasers
+      - [ ] Exist in both worlds
+      - [ ] Exist only in the regular world
+      - [ ] Exist only in the mirror world
+      - Like turrets but a continuous beam
+    + [X] Stationary crystals
+    + [ ] Moving platforms
+    + [ ] Small blocks
+      - [ ] Ordinary
+      - [ ] Variant that is a crystal
+    + [ ] Large blocks
+      - [ ] Ordinary
+      - [ ] Variant that is a crystal
+*** OTHER GOALS
+    + [ ] Trajectory helper for the arrows
