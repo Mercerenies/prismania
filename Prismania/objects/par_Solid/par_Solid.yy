@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Walls.yy",
+    "name": "Abstract Parents",
+    "path": "folders/Abstract Parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "par_Solid",

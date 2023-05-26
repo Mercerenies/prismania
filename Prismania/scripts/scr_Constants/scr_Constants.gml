@@ -2,3 +2,8 @@
 #macro GAMESPEED 60
 #macro INACTIVE_CRYSTAL_COLOR $b93081
 #macro ACTIVE_CRYSTAL_COLOR $ead42d
+
+enum World {
+  REGULAR = 0,
+  MIRROR = 1,
+}

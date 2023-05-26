@@ -22,3 +22,13 @@ function wind(tick) {
   var normalizedTick = power((tick % period) / period, 2.5);
   return sin(normalizedTick * 2 * pi - pi / 2) * 0.5 + 0.5;
 }
+
+function arrayOf(obj) {
+  var instances = [];
+  instances[instance_number(par_PhysicalObject) - 1] = 0;
+  var i = 0;
+  with (par_PhysicalObject) {
+    instances[i++] = self;
+  }
+  return instances;
+}

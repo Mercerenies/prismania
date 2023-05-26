@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_SurfaceManager",
+    "path": "sprites/spr_SurfaceManager/spr_SurfaceManager.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -19,16 +22,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Abstract Parents",
-    "path": "folders/Abstract Parents.yy",
+    "name": "Control",
+    "path": "folders/Control.yy",
   },
   "resourceVersion": "1.0",
-  "name": "par_PhysicalObject",
+  "name": "ctrl_SurfaceManager",
   "tags": [],
   "resourceType": "GMObject",
 }
