@@ -23,6 +23,7 @@
     {"id":{"name":"ctrl_SurfaceManager","path":"objects/ctrl_SurfaceManager/ctrl_SurfaceManager.yy",},"order":5,},
     {"id":{"name":"scr_Constants","path":"scripts/scr_Constants/scr_Constants.yy",},"order":1,},
     {"id":{"name":"par_KinematicObject","path":"objects/par_KinematicObject/par_KinematicObject.yy",},"order":9,},
+    {"id":{"name":"par_Prismoid","path":"objects/par_Prismoid/par_Prismoid.yy",},"order":10,},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":1,},
     {"id":{"name":"spr_SurfaceManager","path":"sprites/spr_SurfaceManager/spr_SurfaceManager.yy",},"order":4,},
     {"id":{"name":"spr_PlayerTorsoMirrored","path":"sprites/spr_PlayerTorsoMirrored/spr_PlayerTorsoMirrored.yy",},"order":3,},

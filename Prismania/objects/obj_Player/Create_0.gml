@@ -1,30 +1,33 @@
 
 event_inherited();
 
-onDraw = function(world) {
-  var head = spr_PlayerHead;
-  var torso = spr_PlayerTorso;
+getHead = function(world) {
   if (world == World.MIRROR) {
-    head = spr_PlayerHeadMirrored;
-    torso = spr_PlayerTorsoMirrored;
+    return spr_PlayerHeadMirrored;
+  } else {
+    return spr_PlayerHead;
   }
-
-  var yadjust = 2 * sin(sine_tick * 2 * pi / 60);
-
-  var facing_dir = last_x_dir;
-  draw_sprite_ext(torso, 0, xprevious + 8, yprevious + 24 + yadjust, facing_dir, 1, 0, c_white, 1);
-  draw_sprite_ext(head, 0, x + 8 , y + 8 + yadjust, facing_dir, 1, 0, c_white, 1);
-
-  // Bow and arrow
-  if (bow_out) {
-    var image_frame = clamp(bow_out_time / 5, 0, 2);
-    var dir = point_direction(x + 8, y + 12, mouse_x, mouse_y);
-    draw_sprite_ext(spr_Bow, floor(image_frame), x + 8, y + 12 + yadjust, 1, 1, dir, c_white, 1);
-  }
-
 }
 
-last_x_dir = 1;
+getTorso = function(world) {
+  if (world == World.MIRROR) {
+    return spr_PlayerTorsoMirrored;
+  } else {
+    return spr_PlayerTorso;
+  }
+}
+
+getBowIndex = function() {
+  if (bow_out) {
+    return clamp(bow_out_time / 5, 0, 2);
+  } else {
+    return undefined;
+  }
+}
+
+getBowAngle = function() {
+  return point_direction(x + 8, y + 12, mouse_x, mouse_y);
+}
 
 max_speed = 5;
 horizontal_acceleration = 2;

@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "spr_PlayerMask",
-    "path": "sprites/spr_PlayerMask/spr_PlayerMask.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_Prismoid",
-    "path": "objects/par_Prismoid/par_Prismoid.yy",
+    "name": "par_KinematicObject",
+    "path": "objects/par_KinematicObject/par_KinematicObject.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,16 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Kinematic Object/Player.yy",
+    "name": "Kinematic Object",
+    "path": "folders/Kinematic Object.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Player",
+  "name": "par_Prismoid",
   "tags": [],
   "resourceType": "GMObject",
 }

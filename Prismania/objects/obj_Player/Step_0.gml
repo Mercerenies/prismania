@@ -71,12 +71,12 @@ if (isPressedOnWall(self)) {
 
 // Adjust facing direction
 if (bow_out) {
-  last_x_dir = sign(mouse_x - x);
-  if (last_x_dir == 0) {
-    last_x_dir = 1;
+  facing_dir = sign(mouse_x - x);
+  if (facing_dir == 0) {
+    facing_dir = 1;
   }
 } else if (sign(velocity_x) != 0) {
-  last_x_dir = sign(velocity_x);
+  facing_dir = sign(velocity_x);
 }
 
 // Animation tick
@@ -84,8 +84,8 @@ sine_tick += 1;
 
 // Melee attack
 if (leftMouseReleased() && (melee_attack_cooldown <= 0) && !ctrl_UnlockedAbilities.archery) {
-  with (instance_create_layer(x + 8 + last_x_dir * 28, y + 12, "Instances", obj_MeleeStrike)) {
-    image_xscale = other.last_x_dir;
+  with (instance_create_layer(x + 8 + facing_dir * 28, y + 12, "Instances", obj_MeleeStrike)) {
+    image_xscale = other.facing_dir;
   }
   melee_attack_cooldown = 30;
 }
@@ -97,11 +97,7 @@ if (melee_attack_cooldown > 0) {
 if (ctrl_UnlockedAbilities.archery) {
   if (bow_out) {
     if (leftMouseReleased()) {
-      var dir = point_direction(x + 8, y + 12, mouse_x, mouse_y);
-      with (instance_create_layer(x + 8, y + 12, "Instances", obj_Arrow)) {
-        velocity_x = lengthdir_x(10, dir);
-        velocity_y = lengthdir_y(10, dir);
-      }
+      fireArrow();
       bow_out = false;
     }
   } else {
