@@ -21,6 +21,7 @@ max_speed = 2;
 horizontal_acceleration = 1;
 walking_dir = 1;
 walking_reset_timer = 0;
+kills_player_on_contact = true;
 
 onHitWall = function() {
   if (walking_reset_timer <= 0) {

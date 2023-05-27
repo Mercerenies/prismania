@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.7643295"
-     inkscape:cx="293.32564"
-     inkscape:cy="821.52168"
+     inkscape:zoom="6.7377794"
+     inkscape:cx="529.47712"
+     inkscape:cy="759.89428"
      inkscape:window-width="1920"
      inkscape:window-height="979"
      inkscape:window-x="0"
@@ -469,6 +469,89 @@
        inkscape:transform-center-x="0.0087361631"
        inkscape:transform-center-y="0.0070204247"
        d="m 147.02246,185.56782 -0.27305,0.59615 -0.75256,-0.32595"
+       sodipodi:nodetypes="ccc" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#ee676c;fill-opacity:1;stroke:#000000;stroke-width:0.0946589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;opacity:1;stop-opacity:1"
+       id="rect3715-1-2-3"
+       width="3.3132815"
+       height="3.0777559"
+       x="124.93816"
+       y="215.01884"
+       transform="rotate(-3.2763773)"
+       inkscape:export-filename="PyramidTorsoOrangeMirrored.png"
+       inkscape:export-xdpi="96.2"
+       inkscape:export-ydpi="96.2" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#ee7277;fill-opacity:1;stroke:#000000;stroke-width:0.0946589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;opacity:1;stop-opacity:1"
+       d="m 137.19866,210.59959 -1.38365,-1.15508 -0.10295,-3.08029 1.3107,1.16263 z"
+       id="path4467-8-7-6" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#ee5d63;fill-opacity:1;stroke:#000000;stroke-width:0.0946589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;opacity:1;stop-opacity:1"
+       d="m 135.71208,206.36422 2.5583,-0.18207 2.06024,1.15532 -3.30786,0.18935 z"
+       id="path4469-7-0-7" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#ee676c;fill-opacity:1;stroke:#000000;stroke-width:0.0946589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="m 148.16552,203.86676 -2.17464,-5.52977 4.582,4.16939 z"
+       id="path2504-3-5-5"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidHeadOrangeMirrored.png"
+       inkscape:export-xdpi="96.2"
+       inkscape:export-ydpi="96.2" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#ee7277;fill-opacity:1;stroke:#000000;stroke-width:0.0946589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;opacity:1;stop-opacity:1"
+       d="m 145.99088,198.33699 -3.37641,4.93607 5.55105,0.5937 z"
+       id="path2506-5-3-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:type="star"
+       style="font-variation-settings:normal;vector-effect:none;fill:#020200;fill-opacity:1;stroke:#000000;stroke-width:0.718383;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="path2601-6-5-5"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="28.819199"
+       sodipodi:cy="81.161232"
+       sodipodi:r1="4.3094869"
+       sodipodi:r2="2.1547432"
+       sodipodi:arg1="1.531024"
+       sodipodi:arg2="2.5782216"
+       inkscape:rounded="2.4286129e-17"
+       inkscape:randomized="0.001"
+       d="m 28.992412,85.466863 -3.98993,-6.308957 7.463895,-0.297778 z"
+       inkscape:transform-center-x="0.002894275"
+       inkscape:transform-center-y="-0.037936727"
+       transform="matrix(-0.05963233,0.0103579,0.00308899,-0.07905702,149.78547,207.18704)" />
+    <path
+       sodipodi:type="star"
+       style="font-variation-settings:normal;vector-effect:none;fill:#020200;fill-opacity:1;stroke:#000000;stroke-width:0.718383;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="path2759-2-6-6"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="28.819199"
+       sodipodi:cy="81.161232"
+       sodipodi:r1="4.3094869"
+       sodipodi:r2="2.1547432"
+       sodipodi:arg1="1.531024"
+       sodipodi:arg2="2.5782216"
+       inkscape:rounded="2.4286129e-17"
+       inkscape:randomized="0.001"
+       d="m 28.992412,85.466863 -3.98993,-6.308957 7.463895,-0.297778 z"
+       inkscape:transform-center-x="0.0028971111"
+       inkscape:transform-center-y="-0.037931435"
+       transform="matrix(-0.05963233,0.0103579,0.00308899,-0.07905702,149.0792,207.50765)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.113938;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 149.24068,202.01674 -0.63548,0.0912"
+       id="path3517-9-2-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.113938;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 147.9586,202.74821 0.49291,-0.5621"
+       id="path3519-1-9-9" />
+    <path
+       id="path3523-2-1-1"
+       style="fill:none;stroke:#000000;stroke-width:0.111244;stroke-linecap:round;stroke-opacity:1;stop-color:#000000"
+       inkscape:transform-center-x="0.0087361631"
+       inkscape:transform-center-y="0.0070204247"
+       d="m 148.09193,200.32402 -0.27305,0.59615 -0.75256,-0.32595"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#7d7d7d;stroke-width:0.801558;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"

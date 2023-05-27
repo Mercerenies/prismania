@@ -21,3 +21,7 @@ getCrystalData = function() {
 getWorlds = function() {
   return World.REGULAR | World.MIRROR;
 }
+
+// Set this to true on subobjects that should kill the player,
+// such as enemies or spikes.
+kills_player_on_contact = false;

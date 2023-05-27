@@ -29,6 +29,12 @@ getBowAngle = function() {
   return point_direction(x + 8, y + 12, mouse_x, mouse_y);
 }
 
+die = function() {
+  instance_create_layer(x + 8, y + 8, "Instances", obj_PlayerHeadDeath);
+  instance_create_layer(x + 8, y + 24, "Instances", obj_PlayerTorsoDeath);
+  instance_destroy();
+}
+
 max_speed = 5;
 horizontal_acceleration = 2;
 
@@ -51,3 +57,6 @@ melee_attack_cooldown = 0;
 ranged_attack_cooldown = 0;
 bow_out = false;
 bow_out_time = 0;
+
+// Re-used during step event to avoid unnecessary allocations.
+tmp_list = ds_list_create();

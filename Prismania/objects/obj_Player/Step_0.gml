@@ -114,7 +114,18 @@ if (bow_out) {
   bow_out_time = 0;
 }
 
-// DEBUG CODE
-if (keyboard_check(vk_f2)) {
-  room_restart();
+// Check if we're outside the room
+if (bbox_top > room_height) {
+  die();
+  exit;
+}
+
+// Check if we're colliding with an enemy or other insta-kill hazard
+ds_list_clear(tmp_list);
+getCollisions(self, par_PhysicalObject, tmp_list);
+for (var i = 0; i < ds_list_size(tmp_list); i++) {
+  if (tmp_list[| i].kills_player_on_contact) {
+    die();
+    exit;
+  }
 }
