@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 0,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b5e9d171-7a0c-4389-9b9a-b95bf5d0649d","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b5e9d171-7a0c-4389-9b9a-b95bf5d0649d","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},"LayerId":{"name":"cdfeb6f5-737a-41d0-8414-4333b385b792","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_PlayerTorso","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},"resourceVersion":"1.0","name":"b5e9d171-7a0c-4389-9b9a-b95bf5d0649d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"55889915-208d-42a6-ae4f-3ba453334846","path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"55889915-208d-42a6-ae4f-3ba453334846","path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},"LayerId":{"name":"a04ff3ae-851f-4fa7-9381-1279cce78710","path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_EnemyTorsoMirrored","path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},"resourceVersion":"1.0","name":"55889915-208d-42a6-ae4f-3ba453334846","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_PlayerTorso","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},
+    "spriteId": {"name":"spr_EnemyTorsoMirrored","path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7f31b337-7d22-4260-83fa-f72331bb6ec9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5e9d171-7a0c-4389-9b9a-b95bf5d0649d","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"586c325b-1c5e-4eee-968c-4aff00ad24de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"55889915-208d-42a6-ae4f-3ba453334846","path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 9,
-    "yorigin": 8,
+    "xorigin": 0,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_PlayerTorso","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},
+    "parent": {"name":"spr_EnemyTorsoMirrored","path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_PlayerTorso",
+    "name": "spr_EnemyTorsoMirrored",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cdfeb6f5-737a-41d0-8414-4333b385b792","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a04ff3ae-851f-4fa7-9381-1279cce78710","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Kinematic Object/Body Parts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_PlayerTorso",
+  "name": "spr_EnemyTorsoMirrored",
   "tags": [],
   "resourceType": "GMSprite",
 }

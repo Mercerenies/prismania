@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Attacks",
-    "path": "folders/Player/Attacks.yy",
+    "path": "folders/Kinematic Object/Attacks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_MeleeStrike",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Player",
-    "path": "folders/Player.yy",
+    "name": "Body Parts",
+    "path": "folders/Kinematic Object/Body Parts.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_PlayerHead",

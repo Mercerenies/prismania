@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Player",
-    "path": "folders/Player.yy",
+    "path": "folders/Kinematic Object/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_PlayerMask",
