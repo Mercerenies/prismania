@@ -79,9 +79,6 @@ if (bow_out) {
   facing_dir = sign(velocity_x);
 }
 
-// Animation tick
-sine_tick += 1;
-
 // Melee attack
 if (leftMouseReleased() && (melee_attack_cooldown <= 0) && !ctrl_UnlockedAbilities.archery) {
   with (instance_create_layer(x + 8 + facing_dir * 28, y + 12, "Instances", obj_MeleeStrike)) {

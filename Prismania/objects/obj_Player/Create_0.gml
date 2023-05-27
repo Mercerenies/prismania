@@ -51,5 +51,3 @@ melee_attack_cooldown = 0;
 ranged_attack_cooldown = 0;
 bow_out = false;
 bow_out_time = 0;
-
-sine_tick = 0;

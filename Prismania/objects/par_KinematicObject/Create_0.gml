@@ -23,5 +23,9 @@ _repelAwayFrom = function(collisions) {
   }
 }
 
+onHitWall = function() {
+  // Called when we hit a wall to the left or right.
+}
+
 velocity_x = 0;
 velocity_y = 0;

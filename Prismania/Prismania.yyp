@@ -18,6 +18,7 @@
     {"id":{"name":"spr_StationaryCrystal","path":"sprites/spr_StationaryCrystal/spr_StationaryCrystal.yy",},"order":2,},
     {"id":{"name":"scr_Utils","path":"scripts/scr_Utils/scr_Utils.yy",},"order":0,},
     {"id":{"name":"spr_WallMask","path":"sprites/spr_WallMask/spr_WallMask.yy",},"order":0,},
+    {"id":{"name":"obj_EvilPrismoid","path":"objects/obj_EvilPrismoid/obj_EvilPrismoid.yy",},"order":1,},
     {"id":{"name":"spr_RegularWallMask","path":"sprites/spr_RegularWallMask/spr_RegularWallMask.yy",},"order":3,},
     {"id":{"name":"scr_Collisions","path":"scripts/scr_Collisions/scr_Collisions.yy",},"order":3,},
     {"id":{"name":"ctrl_SurfaceManager","path":"objects/ctrl_SurfaceManager/ctrl_SurfaceManager.yy",},"order":5,},
@@ -31,6 +32,7 @@
     {"id":{"name":"spr_PlayerMask","path":"sprites/spr_PlayerMask/spr_PlayerMask.yy",},"order":1,},
     {"id":{"name":"obj_MeleeStrike","path":"objects/obj_MeleeStrike/obj_MeleeStrike.yy",},"order":1,},
     {"id":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"order":4,},
+    {"id":{"name":"spr_EvilPrismoidMask","path":"sprites/spr_EvilPrismoidMask/spr_EvilPrismoidMask.yy",},"order":0,},
     {"id":{"name":"spr_PlayerHeadMirrored","path":"sprites/spr_PlayerHeadMirrored/spr_PlayerHeadMirrored.yy",},"order":1,},
     {"id":{"name":"ctrl_UnlockedAbilities","path":"objects/ctrl_UnlockedAbilities/ctrl_UnlockedAbilities.yy",},"order":3,},
     {"id":{"name":"spr_PlayerHead","path":"sprites/spr_PlayerHead/spr_PlayerHead.yy",},"order":0,},
@@ -72,6 +74,7 @@
     {"folderPath":"folders/Structs.yy","order":17,"resourceVersion":"1.0","name":"Structs","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Kinematic Object/Body Parts.yy","order":7,"resourceVersion":"1.0","name":"Body Parts","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Kinematic Object/Player.yy","order":8,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Kinematic Object/EvilPrismoid.yy","order":11,"resourceVersion":"1.0","name":"EvilPrismoid","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

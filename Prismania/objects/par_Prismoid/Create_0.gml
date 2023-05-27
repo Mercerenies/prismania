@@ -42,4 +42,6 @@ fireArrow = function() {
   }
 }
 
+sine_tick = 0;
+
 facing_dir = 1;

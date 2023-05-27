@@ -28,10 +28,12 @@ if (collidesWith(self, par_Solid)) {
         _repelAwayFrom(lst);
       }
       ds_list_destroy(lst);
+      onHitWall();
     } else {
       // X collision
       moveToCollision(self, sign(velocity_x) * 0.6, 0, par_Solid, 20);
       velocity_x = 0;
+      onHitWall();
     }
   } else {
     // Y collision

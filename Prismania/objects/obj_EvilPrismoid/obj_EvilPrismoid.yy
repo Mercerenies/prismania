@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_EvilPrismoidMask",
+    "path": "sprites/spr_EvilPrismoidMask/spr_EvilPrismoidMask.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_KinematicObject",
-    "path": "objects/par_KinematicObject/par_KinematicObject.yy",
+    "name": "par_Prismoid",
+    "path": "objects/par_Prismoid/par_Prismoid.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Kinematic Object",
-    "path": "folders/Kinematic Object.yy",
+    "name": "EvilPrismoid",
+    "path": "folders/Kinematic Object/EvilPrismoid.yy",
   },
   "resourceVersion": "1.0",
-  "name": "par_Prismoid",
+  "name": "obj_EvilPrismoid",
   "tags": [],
   "resourceType": "GMObject",
 }
