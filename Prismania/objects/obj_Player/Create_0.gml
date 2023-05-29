@@ -4,6 +4,13 @@ event_inherited();
 _super_onDraw = onDraw;
 onDraw = function(world) {
   _super_onDraw(world);
+
+  // Held object
+  if (!is_undefined(carrying)) {
+    carrying.onDraw(world, x + 8, y - 18);
+  }
+
+  // Bow trajectory
   if (bow_out) {
     var bow_dir = getBowAngle();
     drawArrowTrajectory(x + 8, y + 12, bow_dir);
@@ -44,6 +51,17 @@ die = function() {
   instance_destroy();
 }
 
+onStrike = function(strike) {
+  // Never react to AttackType.PLAYER. If it's AttackType.ENEMY,
+  // it's going to kill us in the step event anyway, so don't
+  // apply impulse.
+  if (strike.attack_type == AttackType.NEUTRAL) {
+    strike.applyImpulse(self);
+    return true;
+  }
+  return false;
+}
+
 max_speed = 5;
 horizontal_acceleration = 2;
 
@@ -69,3 +87,6 @@ bow_out_time = 0;
 
 // Re-used during step event to avoid unnecessary allocations.
 tmp_list = ds_list_create();
+
+// Object being carried (if any)
+carrying = undefined;

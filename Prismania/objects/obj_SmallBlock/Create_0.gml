@@ -9,3 +9,7 @@ onDraw = function(world) {
   }
   draw_self();
 }
+
+intoCarriedBlock = function() {
+  return new SmallCarriedBlock();
+}

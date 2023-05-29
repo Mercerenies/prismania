@@ -19,15 +19,16 @@ function createKinematicObject() {
     }
     if ((xx == 0) && (yy == 0)) {
       // If we're at the center of an object, just start floating up.
-      yy -= 0.2;
+      yy += 0.2;
     }
     var length = sqrt(sqr(xx) + sqr(yy));
     xx /= length;
     yy /= length;
     // To avoid getting squished between two objects, put a slight bias on the upward direction.
     if (abs(yy) < 0.1) {
-      yy -= 0.2;
+      yy += 0.2;
     }
+    //show_debug_message(string(xx) + " " + string(yy));
     x -= bt * 3 * xx;
     y -= bt * 3 * yy;
   }
@@ -38,6 +39,8 @@ function createKinematicObject() {
 
   velocity_x = 0;
   velocity_y = 0;
+
+  repel_panic_timer = 0;
 
 }
 
@@ -53,6 +56,8 @@ function stepKinematicObject() {
 
   // Gravity
   velocity_y += GRAVITY_CONSTANT * bt;
+
+  var repelled = false;
 
   // Collisions
   if (collidesWith(self, par_Solid)) {
@@ -72,6 +77,8 @@ function stepKinematicObject() {
         if (!ds_list_empty(lst)) {
           // If still inside, repel self away from the objects in question.
           _repelAwayFrom(lst);
+          repel_panic_timer += bt;
+          repelled = true;
         }
         ds_list_destroy(lst);
         onHitWall();
@@ -86,6 +93,18 @@ function stepKinematicObject() {
       moveToCollision(self, 0, sign(velocity_y) * 0.6, par_Solid, 20);
       velocity_y = 0;
     }
+
+    if (!repelled) {
+      repel_panic_timer = 0;
+    } else if (repel_panic_timer > 30) {
+      // Avoiding softlocks in the most hacky way possible.
+      while (collidesWith(self, par_Solid)) {
+        y -= 4;
+      }
+      show_debug_message("Physics panic!");
+      velocity_y = 0;
+    }
+
   }
 
 }

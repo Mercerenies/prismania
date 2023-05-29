@@ -125,6 +125,28 @@ if (bow_out) {
   bow_out_time = 0;
 }
 
+// Pick up or drop an object
+if (rightMousePressed()) {
+  if (is_undefined(carrying)) {
+    // Look for something to pick up
+    x += facing_dir * 2;
+    var target_object = getFirstCollision(self, par_Block);
+    x -= facing_dir * 2;
+    if (!is_undefined(target_object)) {
+      carrying = target_object.intoCarriedBlock();
+      with (target_object) {
+        instance_destroy();
+      }
+    }
+  } else {
+    // Throw the currently held object
+    var block = carrying.intoBlock(x + 8, y - 18);
+    block.velocity_x = facing_dir * 5;
+    block.velocity_y = -5;
+    carrying = undefined;
+  }
+}
+
 // Check if we're outside the room
 if (bbox_top > room_height) {
   die();

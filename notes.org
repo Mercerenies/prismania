@@ -17,14 +17,15 @@
     + [X] Movement (WASD)
     + [X] Jump (WASD)
     + [X] Short range punching attack (left mouse click)
-    + [ ] Pick up / throw small objects (right mouse click)
+    + [X] +Pick up / throw small objects (right mouse click)+
 
     Actions available by getting the corresponding upgrade
     + [X] Archery (left mouse click is now a ranged attack; infinite arrows)
-    + [ ] Bullet time (time slows down when you use archery in air)
-    + [ ] Super strength (can pick up and throw larger objects with right mouse as well)
+    + [X] Bullet time (time slows down when you use archery in air)
+    + [X] +Super strength (can pick up and throw larger objects with right mouse as well)+
     + [X] Double jump
     + [X] Wall jumps
+    + [ ] Crystal core (allows you to collect portable crystals and use them with RMB)
 
     Hitting a crystal (with either the punching attack or an arrow)
     causes it to activate or deactivate. An active crystal transports
@@ -39,8 +40,8 @@
       - [X] Full walls
       - [X] Regular-world only
       - [X] Mirror world only
-    + [ ] Generic enemies who walk left/right
-      - [ ] Exist in both worlds
+    + [-] Generic enemies who walk left/right
+      - [X] Exist in both worlds
       - [ ] Variant that's friendly in regular but evil in mirror
       - [ ] Flying variant patrols left and right without gravity
     + [ ] Enemies who fire arrows at you
@@ -60,12 +61,13 @@
       - Like turrets but a continuous beam
     + [X] Stationary crystals
     + [ ] Moving platforms
-    + [ ] Small blocks
-      - [ ] Ordinary
-      - [ ] Variant that is a crystal
-    + [ ] Large blocks
-      - [ ] Ordinary
-      - [ ] Variant that is a crystal
+    + [X] +Small blocks+
+      - [X] +Ordinary+
+      - [X] +Variant that is a crystal+
+    + [X] +Large blocks+
+      - [X] +Ordinary+
+      - [X] +Variant that is a crystal+
     + [ ] Spring?
+    + [ ] Crystal core energy
 *** OTHER GOALS
     + [X] Trajectory helper for the arrows

@@ -7,6 +7,20 @@ function collidesWith(source, dest) {
   return !ds_list_empty(global.collisions_list);
 }
 
+// dest can be an object type or a specific instance ID. Returns one
+// collision, or undefined if there are none. If there are multiple,
+// the returned collision is chosen arbitrarily from them.
+function getFirstCollision(source, dest) {
+  // Use a single global ds_list to avoid a bunch of unnecessary allocations
+  // when all we want is whether or not one exists.
+  getCollisions(source, dest, global.collisions_list);
+  if (ds_list_empty(global.collisions_list)) {
+    return undefined;
+  } else {
+    return global.collisions_list[| 0];
+  }
+}
+
 // Return value is only good until the next getCollisions call,
 // for efficiency reasons.
 function getCollisions(source, dest, lst) {
@@ -39,7 +53,7 @@ function _isCollisionReal(object1, object2) {
   var rect_y2 = min(object1.bbox_bottom, object2.bbox_bottom);
   var rect_w = rect_x2 - rect_x1;
   var rect_h = rect_y2 - rect_y1;
-  
+
   var crystals = []
   var crystals_i = 0;
   with (par_PhysicalObject) {

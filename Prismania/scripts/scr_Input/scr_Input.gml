@@ -18,3 +18,7 @@ function leftMouseReleased() {
 function leftMousePressed() {
   return mouse_check_button_pressed(mb_left);
 }
+
+function rightMousePressed() {
+  return mouse_check_button_pressed(mb_right);
+}

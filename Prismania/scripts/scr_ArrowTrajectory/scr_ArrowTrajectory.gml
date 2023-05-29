@@ -19,7 +19,7 @@ function drawArrowTrajectory(xorigin, yorigin, angle) {
     if (i % 3 == 0) {
       draw_line(xx, yy, xx + arrow_velocity_x * 2, yy + arrow_velocity_y * 2);
     }
-    if (i % 10 == 0) {
+    if ((i % 10 == 0) || (sqr(arrow_velocity_x) + sqr(arrow_velocity_y) > 11)) {
       obj_ArrowMaskSimulator.x = xx;
       obj_ArrowMaskSimulator.y = yy;
       if (collidesWith(obj_ArrowMaskSimulator.id, par_Solid) || (yy > room_height)) {
