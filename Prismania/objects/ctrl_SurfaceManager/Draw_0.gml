@@ -5,7 +5,7 @@ assertSurfaces();
 // array here and sort it. Draw from oldest object
 // to newest one.
 var objects = arrayOf(par_PhysicalObject);
-array_sort(objects, function(a, b) { return a.id - b.id; });
+array_sort(objects, function(a, b) { return real(a.id) - real(b.id); });
 
 // Draw regular world
 draw_set_color($4C4C4C); // DEBUG CODE

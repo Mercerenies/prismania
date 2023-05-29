@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "scr_Input",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Utility",
     "path": "folders/Utility.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "scr_Input",
-  "tags": [],
-  "resourceType": "GMScript",
 }
