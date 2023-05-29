@@ -11,3 +11,9 @@ enum World {
   REGULAR = 1,
   MIRROR = 2,
 }
+
+enum AttackType {
+  PLAYER = 0,
+  NEUTRAL = 1,
+  ENEMY = 2,
+}

@@ -31,7 +31,7 @@ onHitWall = function() {
 }
 
 onStrike = function(strike) {
-  if (strike.is_player_attack) {
+  if (strike.attack_type != AttackType.ENEMY) {
     strike.applyImpulse(self);
     walking_reset_timer = 10;
     return true;

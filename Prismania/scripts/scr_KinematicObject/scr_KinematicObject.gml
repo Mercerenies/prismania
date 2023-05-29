@@ -17,11 +17,19 @@ function createKinematicObject() {
       xx += (mean(collision_center_x1, collision_center_x2) - center_x);
       yy += (mean(collision_center_y1, collision_center_y2) - center_y);
     }
-    if ((xx != 0) || (yy != 0)) {
-      var length = sqrt(sqr(xx) + sqr(yy));
-      x -= bt * 3 * xx / length;
-      y -= bt * 3 * yy / length;
+    if ((xx == 0) && (yy == 0)) {
+      // If we're at the center of an object, just start floating up.
+      yy -= 0.2;
     }
+    var length = sqrt(sqr(xx) + sqr(yy));
+    xx /= length;
+    yy /= length;
+    // To avoid getting squished between two objects, put a slight bias on the upward direction.
+    if (abs(yy) < 0.1) {
+      yy -= 0.2;
+    }
+    x -= bt * 3 * xx;
+    y -= bt * 3 * yy;
   }
 
   onHitWall = function() {
