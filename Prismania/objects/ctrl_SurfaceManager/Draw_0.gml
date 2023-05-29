@@ -10,6 +10,8 @@ array_sort(objects, function(a, b) { return real(a.id) - real(b.id); });
 // Draw regular world
 draw_set_color($4C4C4C); // DEBUG CODE
 draw_rectangle(0, 0, room_width, room_height, false); // DEBUG CODE
+draw_tilemap(tileset_both, 0, 0);
+draw_tilemap(tileset_regular, 0, 0);
 for (var i = 0; i < array_length(objects); i++) {
   with (objects[i]) {
     onDraw(World.REGULAR);
@@ -20,6 +22,8 @@ for (var i = 0; i < array_length(objects); i++) {
 surface_set_target(mirror_surface);
 draw_set_color(c_aqua); // DEBUG CODE
 draw_rectangle(0, 0, room_width, room_height, false); // DEBUG CODE
+draw_tilemap(tileset_both, 0, 0);
+draw_tilemap(tileset_mirror, 0, 0);
 for (var i = 0; i < array_length(objects); i++) {
   with (objects[i]) {
     onDraw(World.MIRROR);

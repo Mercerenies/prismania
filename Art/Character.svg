@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -39,9 +40,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="23.281406"
-     inkscape:cx="651.70378"
-     inkscape:cy="627.78102"
+     inkscape:zoom="4.1156101"
+     inkscape:cx="272.30492"
+     inkscape:cy="440.17188"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -49,9 +50,21 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     inkscape:snap-global="true" />
+     inkscape:snap-global="false" />
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4010">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop4006" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4008" />
+    </linearGradient>
     <filter
        inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
        inkscape:menu="Shadows and Glows"
@@ -252,6 +265,35 @@
          stdDeviation="0.15818458"
          id="feGaussianBlur3950-5" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4010"
+       id="linearGradient4014"
+       x1="79.628937"
+       y1="141.19083"
+       x2="86.420418"
+       y2="147.39461"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4010"
+       id="linearGradient4020"
+       gradientUnits="userSpaceOnUse"
+       x1="79.628937"
+       y1="141.19083"
+       x2="86.420418"
+       y2="147.39461"
+       gradientTransform="translate(-29.093317,0.54549969)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4010"
+       id="linearGradient4026"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-15.819491,-18.365156)"
+       x1="79.628937"
+       y1="141.19083"
+       x2="86.420418"
+       y2="147.39461" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -2650,6 +2692,94 @@
        d="m 652.64648,621.74609 -6.2539,9.02539 7.4668,7.95899 4.80664,-8.91602 z"
        transform="matrix(0.26458333,0,0,0.26458333,5.0254199,-0.1458457)"
        inkscape:export-filename="PyramidCrystalFloatingMirrored.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#706e71;fill-opacity:1;stroke:#000000;stroke-width:0.0104858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect3994"
+       width="8.5245447"
+       height="8.4562292"
+       x="78.440971"
+       y="140.36996"
+       ry="1.3412911"
+       inkscape:export-filename="NeutralWall.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient4014);stroke-width:0.21;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect3996"
+       width="8.1957293"
+       height="8.1300497"
+       x="78.605377"
+       y="140.53307"
+       ry="1.2895538"
+       inkscape:export-filename="NeutralWall.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#786d35;fill-opacity:1;stroke:#000000;stroke-width:0.0104858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4016"
+       width="8.5245447"
+       height="8.4562292"
+       x="49.347656"
+       y="140.91547"
+       ry="1.3412911"
+       inkscape:export-filename="RegularWall.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient4020);stroke-width:0.21;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4018"
+       width="8.1957293"
+       height="8.1300497"
+       x="49.512062"
+       y="141.07857"
+       ry="1.2895538"
+       inkscape:export-filename="RegularWall.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#379dac;fill-opacity:1;stroke:#000000;stroke-width:0.0104858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4022"
+       width="8.5245447"
+       height="8.4562292"
+       x="62.621483"
+       y="122.00481"
+       ry="1.3412911"
+       inkscape:export-filename="MirrorWall.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient4026);stroke-width:0.21;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4024"
+       width="8.1957293"
+       height="8.1300497"
+       x="62.785889"
+       y="122.16792"
+       ry="1.2895538"
+       inkscape:export-filename="MirrorWall.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#5a9096;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4028"
+       width="8.5245447"
+       height="8.4562292"
+       x="78.668266"
+       y="120.91381"
+       ry="1.3412911"
+       inkscape:export-filename="MirrorWallInactive.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#635c3c;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4034"
+       width="8.5245447"
+       height="8.4562292"
+       x="89.941925"
+       y="116.54981"
+       ry="1.3412911"
+       inkscape:export-filename="RegularWallInactive.png"
        inkscape:export-xdpi="96.199997"
        inkscape:export-ydpi="96.199997" />
   </g>

@@ -40,7 +40,7 @@ onDraw = function(world) {
     if (world == World.MIRROR) {
       blend = merge_color(INACTIVE_CRYSTAL_COLOR, ACTIVE_CRYSTAL_COLOR, crystal_blend_fade);
     }
-    draw_sprite_ext(spr_PersonalCrystal, 0, x + 8 + 2 * facing_dir, y + 26 + yadjust, facing_dir, 1, 0, blend, 1);
+    draw_sprite_ext(spr_PersonalCrystal, 0, xprevious + 8 + 2 * facing_dir, yprevious + 26 + yadjust, facing_dir, 1, 0, blend, 1);
   }
 
   // Bow and arrow
