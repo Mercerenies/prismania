@@ -3,6 +3,7 @@
 #macro INACTIVE_CRYSTAL_COLOR $b93081
 #macro ACTIVE_CRYSTAL_COLOR $ead42d
 #macro GRAVITY_CONSTANT 1.2
+#macro ARROW_GRAVITY_CONSTANT (GRAVITY_CONSTANT / 6)
 
 // Can be used as a bitmask.
 enum World {

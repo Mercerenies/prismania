@@ -1,6 +1,15 @@
 
 event_inherited();
 
+_super_onDraw = onDraw;
+onDraw = function() {
+  _super_onDraw();
+  if (bow_out) {
+    var bow_dir = getBowAngle();
+    drawArrowTrajectory(x + 8, y + 12, bow_dir, c_red);
+  }
+}
+
 getHead = function(world) {
   if (world == World.MIRROR) {
     return spr_PlayerHeadMirrored;

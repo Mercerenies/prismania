@@ -10,7 +10,7 @@ if (has_struck) {
   y += velocity_y;
 
   // Gravity
-  velocity_y += GRAVITY_CONSTANT / 6;
+  velocity_y += ARROW_GRAVITY_CONSTANT;
 
   // Collisions
   ds_list_clear(collisions_list);

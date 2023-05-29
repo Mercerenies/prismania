@@ -48,6 +48,7 @@
     {"id":{"name":"par_PhysicalObject","path":"objects/par_PhysicalObject/par_PhysicalObject.yy",},"order":0,},
     {"id":{"name":"spr_EnemyHeadMirrored","path":"sprites/spr_EnemyHeadMirrored/spr_EnemyHeadMirrored.yy",},"order":5,},
     {"id":{"name":"spr_Bow","path":"sprites/spr_Bow/spr_Bow.yy",},"order":5,},
+    {"id":{"name":"scr_ArrowTrajectory","path":"scripts/scr_ArrowTrajectory/scr_ArrowTrajectory.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
