@@ -35,6 +35,7 @@
     {"id":{"name":"par_Block","path":"objects/par_Block/par_Block.yy",},"order":0,},
     {"id":{"name":"spr_Init","path":"sprites/spr_Init/spr_Init.yy",},"order":0,},
     {"id":{"name":"spr_ArrowMask","path":"sprites/spr_ArrowMask/spr_ArrowMask.yy",},"order":3,},
+    {"id":{"name":"spr_PersonalCrystal","path":"sprites/spr_PersonalCrystal/spr_PersonalCrystal.yy",},"order":0,},
     {"id":{"name":"obj_StationaryCrystal","path":"objects/obj_StationaryCrystal/obj_StationaryCrystal.yy",},"order":1,},
     {"id":{"name":"spr_EnemyHead","path":"sprites/spr_EnemyHead/spr_EnemyHead.yy",},"order":4,},
     {"id":{"name":"spr_UnlockedAbilities","path":"sprites/spr_UnlockedAbilities/spr_UnlockedAbilities.yy",},"order":2,},
