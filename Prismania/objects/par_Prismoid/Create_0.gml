@@ -70,7 +70,7 @@ getCrystalData = function() {
   }
 }
 
-sine_tick = 0;
+sine_tick = random(60);
 
 facing_dir = 1;
 

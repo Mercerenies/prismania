@@ -39,9 +39,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="5.8203516"
-     inkscape:cx="447.33329"
-     inkscape:cy="652.87493"
+     inkscape:zoom="23.281406"
+     inkscape:cx="651.70378"
+     inkscape:cy="627.78102"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -49,7 +49,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true" />
   <defs
      id="defs2">
     <filter
@@ -225,6 +225,32 @@
          inkscape:collect="always"
          stdDeviation="0.043243891"
          id="feGaussianBlur2956" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3948"
+       x="-0.030932077"
+       width="1.0618642"
+       y="-0.022352479"
+       height="1.044705">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15818458"
+         id="feGaussianBlur3950" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3948-7"
+       x="-0.030932076"
+       width="1.0618643"
+       y="-0.022352479"
+       height="1.044705">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15818458"
+         id="feGaussianBlur3950-5" />
     </filter>
   </defs>
   <g
@@ -2510,5 +2536,121 @@
        inkscape:transform-center-y="0.02859445"
        d="m 131.95995,166.54146 0.12337,0.44782 0.20069,-0.30968"
        sodipodi:nodetypes="ccc" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#b9b9b9;fill-opacity:1;stroke:#000000;stroke-width:0.0819999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect3461"
+       width="4.977685"
+       height="7.9324746"
+       x="153.10359"
+       y="137.73868"
+       ry="0" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#1d190b;fill-opacity:1;stroke:none;stroke-width:0.0810785;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 158.08127,137.73867 -1.05832,-1.05832 h -4.97769 l 1.05833,1.05832 z"
+       id="path3465" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#cacaca;fill-opacity:1;stroke:#000000;stroke-width:0.0819999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 153.10359,137.73867 v 7.93248 l -1.05833,-1.05832 v -7.93248 z"
+       id="path3467" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#effd09;fill-opacity:1;stroke:#000000;stroke-width:0.0820483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 155.47568,140.58628 1.26524,1.5966 -1.32428,1.06011 0.81249,1.60754 -1.63408,-1.46673 1.33747,-1.26924 z"
+       id="path3494" />
+    <path
+       id="rect3547"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#1d190b;fill-opacity:1;stroke:none;stroke-width:0.0810785;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 153.1315,137.75023 v 1.99989 h 4.92205 v -1.99989 z" />
+    <path
+       id="path3552"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#1d190b;fill-opacity:1;stroke:none;stroke-width:0.0810785;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 152.04519,136.68053 v 2.21072 l 1.05834,0.83664 v -1.98903 z" />
+    <path
+       id="path3585"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#696969;fill-opacity:1;stroke:none;stroke-width:0.0798411;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 153.89146,136.35823 a 0.694521,0.43603344 0 0 0 -0.66401,0.43556 0.694521,0.43603344 0 0 0 0.002,0.0281 0.694521,0.43603344 0 0 0 -0.002,0.0281 0.694521,0.43603344 0 0 0 0.002,0.0281 0.694521,0.43603344 0 0 0 -0.002,0.0281 0.694521,0.43603344 0 0 0 0.002,0.0281 0.694521,0.43603344 0 0 0 -0.002,0.0281 0.694521,0.43603344 0 0 0 0.002,0.0281 0.694521,0.43603344 0 0 0 -0.002,0.0281 0.694521,0.43603344 0 0 0 0.002,0.0281 0.694521,0.43603344 0 0 0 -0.002,0.0281 0.694521,0.43603344 0 0 0 0.69437,0.43619 0.694521,0.43603344 0 0 0 0.69438,-0.43619 0.694521,0.43603344 0 0 0 -0.002,-0.0275 0.694521,0.43603344 0 0 0 0.002,-0.0287 0.694521,0.43603344 0 0 0 -0.002,-0.0275 0.694521,0.43603344 0 0 0 0.002,-0.0287 0.694521,0.43603344 0 0 0 -0.002,-0.0275 0.694521,0.43603344 0 0 0 0.002,-0.0287 0.694521,0.43603344 0 0 0 -0.002,-0.0275 0.694521,0.43603344 0 0 0 0.002,-0.0287 0.694521,0.43603344 0 0 0 -0.002,-0.0275 0.694521,0.43603344 0 0 0 0.002,-0.0287 0.694521,0.43603344 0 0 0 -0.69438,-0.43556 0.694521,0.43603344 0 0 0 -0.0304,0 z" />
+    <path
+       id="path3598"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#696969;fill-opacity:1;stroke:none;stroke-width:0.0660586;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 156.14111,136.67064 a 0.694521,0.29848725 0 0 0 -0.66401,0.29816 0.694521,0.29848725 0 0 0 0.002,0.0192 0.694521,0.29848725 0 0 0 -0.002,0.0192 0.694521,0.29848725 0 0 0 0.002,0.0192 0.694521,0.29848725 0 0 0 -0.002,0.0192 0.694521,0.29848725 0 0 0 0.002,0.0192 0.694521,0.29848725 0 0 0 -0.002,0.0192 0.694521,0.29848725 0 0 0 0.002,0.0192 0.694521,0.29848725 0 0 0 -0.002,0.0192 0.694521,0.29848725 0 0 0 0.002,0.0192 0.694521,0.29848725 0 0 0 -0.002,0.0192 0.694521,0.29848725 0 0 0 0.69437,0.2986 0.694521,0.29848725 0 0 0 0.69438,-0.2986 0.694521,0.29848725 0 0 0 -0.002,-0.0188 0.694521,0.29848725 0 0 0 0.002,-0.0196 0.694521,0.29848725 0 0 0 -0.002,-0.0188 0.694521,0.29848725 0 0 0 0.002,-0.0197 0.694521,0.29848725 0 0 0 -0.002,-0.0188 0.694521,0.29848725 0 0 0 0.002,-0.0196 0.694521,0.29848725 0 0 0 -0.002,-0.0188 0.694521,0.29848725 0 0 0 0.002,-0.0196 0.694521,0.29848725 0 0 0 -0.002,-0.0188 0.694521,0.29848725 0 0 0 0.002,-0.0197 0.694521,0.29848725 0 0 0 -0.69438,-0.29816 0.694521,0.29848725 0 0 0 -0.0304,0 z" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8a33c5;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 173.11602,167.26492 -0.11571,1.73241 1.2989,-2.34718 z"
+       id="path3600"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloating.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#9a38db;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 173.00031,168.99733 -1.92561,-2.09283 2.04132,0.36042 z"
+       id="path3602"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloating.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8130b9;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 173.11602,167.26492 -0.43686,-2.76136 1.5928,2.13497 z"
+       id="path3604"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloating.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8a33c5;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 172.67916,164.50356 -1.65446,2.38832 2.09132,0.37304 z"
+       id="path3606"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloating.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path3694"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.155305;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;filter:url(#filter3948)"
+       d="M 652.64648 621.74609 L 646.39258 630.77148 L 653.85938 638.73047 L 658.66602 629.81445 L 652.64648 621.74609 z "
+       transform="scale(0.26458333)"
+       inkscape:export-filename="PyramidCrystalFloating.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#8a33c5;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 178.14144,167.11907 -0.11571,1.73241 1.2989,-2.34718 z"
+       id="path3600-2"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloatingMirrored.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#9a38db;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 178.02573,168.85148 -1.92561,-2.09283 2.04132,0.36042 z"
+       id="path3602-8"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloatingMirrored.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#8130b9;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 178.14144,167.11907 -0.43686,-2.76136 1.5928,2.13497 z"
+       id="path3604-8"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloatingMirrored.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#8a33c5;fill-opacity:1;stroke:#000000;stroke-width:0.041091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 177.70458,164.35771 -1.65446,2.38832 2.09132,0.37304 z"
+       id="path3606-6"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="PyramidCrystalFloatingMirrored.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path3694-4"
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.155305;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3948-7);stop-color:#000000"
+       d="m 652.64648,621.74609 -6.2539,9.02539 7.4668,7.95899 4.80664,-8.91602 z"
+       transform="matrix(0.26458333,0,0,0.26458333,5.0254199,-0.1458457)"
+       inkscape:export-filename="PyramidCrystalFloatingMirrored.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
   </g>
 </svg>
