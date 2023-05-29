@@ -1,6 +1,6 @@
 
 function createKinematicObject() {
-  
+
   _repelAwayFrom = function(collisions) {
     // Calculate average direction to the collided objects.
     var bt = ctrl_BulletTimeManager.global_speed_multiplier;
