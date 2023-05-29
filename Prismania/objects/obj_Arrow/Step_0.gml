@@ -1,4 +1,6 @@
 
+var bt = ctrl_BulletTimeManager.global_speed_multiplier;
+
 if (has_struck) {
   image_alpha = toward(image_alpha, 0, 0.05);
   if (image_alpha <= 0) {
@@ -6,11 +8,11 @@ if (has_struck) {
   }
 } else {
 
-  x += velocity_x;
-  y += velocity_y;
+  x += velocity_x * bt;
+  y += velocity_y * bt;
 
   // Gravity
-  velocity_y += ARROW_GRAVITY_CONSTANT;
+  velocity_y += ARROW_GRAVITY_CONSTANT * bt;
 
   // Collisions
   ds_list_clear(collisions_list);

@@ -1,12 +1,14 @@
 
+var bt = ctrl_BulletTimeManager.global_speed_multiplier;
+
 var xprev = x;
 var yprev = y;
 
-x += velocity_x;
-y += velocity_y;
+x += velocity_x * bt;
+y += velocity_y * bt;
 
 // Gravity
-velocity_y += GRAVITY_CONSTANT;
+velocity_y += GRAVITY_CONSTANT * bt;
 
 // Collisions
 if (collidesWith(self, par_Solid)) {

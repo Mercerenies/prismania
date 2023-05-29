@@ -4,6 +4,7 @@
 #macro ACTIVE_CRYSTAL_COLOR $ead42d
 #macro GRAVITY_CONSTANT 1.2
 #macro ARROW_GRAVITY_CONSTANT (GRAVITY_CONSTANT / 6)
+#macro BULLET_TIME_SPEED_MULTIPLIER 0.1
 
 // Can be used as a bitmask.
 enum World {

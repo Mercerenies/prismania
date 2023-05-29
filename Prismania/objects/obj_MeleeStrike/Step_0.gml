@@ -1,4 +1,7 @@
 
+var bt = ctrl_BulletTimeManager.global_speed_multiplier;
+image_speed = bt;
+
 if (!has_struck) {
   var collisions = ds_list_create();
   getCollisions(self, par_PhysicalObject, collisions);

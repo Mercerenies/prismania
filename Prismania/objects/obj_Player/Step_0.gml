@@ -1,24 +1,26 @@
 
 event_inherited();
 
+var bt = ctrl_BulletTimeManager.global_speed_multiplier;
+
 // Inputs
 if (keyLeft()) {
-  velocity_x = toward(velocity_x, - max_speed, horizontal_acceleration);
+  velocity_x = toward(velocity_x, - max_speed, horizontal_acceleration * bt);
 }
 if (keyRight()) {
-  velocity_x = toward(velocity_x, max_speed, horizontal_acceleration);
+  velocity_x = toward(velocity_x, max_speed, horizontal_acceleration * bt);
 }
 
 // Friction
 if ((!keyLeft()) && (!keyRight())) {
-  velocity_x *= 0.8;
+  velocity_x *= (1 - 0.2 * bt);
   if (abs(velocity_x) < 0.2) {
     velocity_x = 0;
   }
 }
 
-wall_jump_timer += 1;
-last_ground_timer += 1;
+wall_jump_timer += 1 * bt;
+last_ground_timer += 1 * bt;
 
 // Jumping
 if (keyUpPressed()) {
@@ -40,7 +42,7 @@ if (keyUpPressed()) {
 
 // Friction on walls
 if (isPressedOnWall(self) && (velocity_y > 3)) {
-  velocity_y = toward(velocity_y, 3, 2.2);
+  velocity_y = toward(velocity_y, 3, 2.2 * bt);
 }
 
 // Reset double jump flag and wall jump flag
@@ -88,7 +90,7 @@ if (leftMouseReleased() && (melee_attack_cooldown <= 0) && !ctrl_UnlockedAbiliti
   melee_attack_cooldown = 30;
 }
 if (melee_attack_cooldown > 0) {
-  melee_attack_cooldown -= 1;
+  melee_attack_cooldown -= 1 * bt;
 }
 
 // Ranged attack
@@ -101,16 +103,24 @@ if (ctrl_UnlockedAbilities.archery) {
   } else {
     if (leftMousePressed() && (ranged_attack_cooldown <= 0) && (instance_number(obj_Arrow) < 3)) {
       bow_out = true;
+      if ((!isOnGround(self)) && (ctrl_UnlockedAbilities.bullet_time)) {
+        ctrl_BulletTimeManager.enterBulletTime();
+      }
     }
   }
 }
 if (ranged_attack_cooldown > 0) {
-  ranged_attack_cooldown -= 1;
+  ranged_attack_cooldown -= 1 * bt;
+}
+
+// End bullet time
+if (isOnGround(self) || !bow_out) {
+  ctrl_BulletTimeManager.exitBulletTime();
 }
 
 // Bow drawn animation
 if (bow_out) {
-  bow_out_time += 1;
+  bow_out_time += 1 * bt;
 } else {
   bow_out_time = 0;
 }

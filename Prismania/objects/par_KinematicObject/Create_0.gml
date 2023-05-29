@@ -3,6 +3,7 @@ event_inherited();
 
 _repelAwayFrom = function(collisions) {
   // Calculate average direction to the collided objects.
+  var bt = ctrl_BulletTimeManager.global_speed_multiplier;
   var center_x = mean(bbox_left, bbox_right);
   var center_y = mean(bbox_top, bbox_bottom);
   var xx = 0;
@@ -18,8 +19,8 @@ _repelAwayFrom = function(collisions) {
   }
   if ((xx != 0) || (yy != 0)) {
     var length = sqrt(sqr(xx) + sqr(yy));
-    x -= 3 * xx / length;
-    y -= 3 * yy / length;
+    x -= bt * 3 * xx / length;
+    y -= bt * 3 * yy / length;
   }
 }
 

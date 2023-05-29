@@ -25,6 +25,7 @@
     {"name":"spr_EnemyTorso","order":6,"path":"sprites/spr_EnemyTorso/spr_EnemyTorso.yy",},
     {"name":"spr_EnemyTorsoMirrored","order":7,"path":"sprites/spr_EnemyTorsoMirrored/spr_EnemyTorsoMirrored.yy",},
     {"name":"scr_Input","order":2,"path":"scripts/scr_Input/scr_Input.yy",},
+    {"name":"spr_BulletTimeManager","order":8,"path":"sprites/spr_BulletTimeManager/spr_BulletTimeManager.yy",},
     {"name":"obj_MirrorWall","order":4,"path":"objects/obj_MirrorWall/obj_MirrorWall.yy",},
     {"name":"obj_RegularWall","order":5,"path":"objects/obj_RegularWall/obj_RegularWall.yy",},
     {"name":"struct_Strike","order":8,"path":"scripts/struct_Strike/struct_Strike.yy",},
@@ -54,6 +55,7 @@
     {"name":"ctrl_Init","order":1,"path":"objects/ctrl_Init/ctrl_Init.yy",},
     {"name":"spr_EnemyHeadMirrored","order":5,"path":"sprites/spr_EnemyHeadMirrored/spr_EnemyHeadMirrored.yy",},
     {"name":"spr_Bow","order":5,"path":"sprites/spr_Bow/spr_Bow.yy",},
+    {"name":"ctrl_BulletTimeManager","order":9,"path":"objects/ctrl_BulletTimeManager/ctrl_BulletTimeManager.yy",},
     {"name":"scr_ArrowTrajectory","order":4,"path":"scripts/scr_ArrowTrajectory/scr_ArrowTrajectory.yy",},
   ],
 }
