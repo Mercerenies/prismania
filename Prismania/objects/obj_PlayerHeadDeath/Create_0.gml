@@ -9,3 +9,11 @@ if (y > room_height) {
 }
 
 alarm[0] = 30;
+
+onDraw = function(world) {
+  sprite_index = spr_PlayerHead;
+  if (world == World.MIRROR) {
+    sprite_index = spr_PlayerHeadMirrored;
+  }
+  draw_self();
+}
