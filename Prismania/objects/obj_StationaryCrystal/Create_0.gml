@@ -7,7 +7,7 @@ is_active = false;
 
 radius = 0;
 
-onStrike = function() {
+onStrike = function(strike) {
   is_active = !is_active;
   return true;
 }

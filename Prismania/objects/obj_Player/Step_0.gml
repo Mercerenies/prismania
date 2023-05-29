@@ -83,6 +83,7 @@ if (bow_out) {
 if (leftMouseReleased() && (melee_attack_cooldown <= 0) && !ctrl_UnlockedAbilities.archery) {
   with (instance_create_layer(x + 8 + facing_dir * 28, y + 12, "Instances", obj_MeleeStrike)) {
     image_xscale = other.facing_dir;
+    attack_velocity_x = other.facing_dir * other.attack_velocity;
   }
   melee_attack_cooldown = 30;
 }

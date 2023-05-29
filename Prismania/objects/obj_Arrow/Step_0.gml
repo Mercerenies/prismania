@@ -17,7 +17,8 @@ if (has_struck) {
   getCollisions(self, par_PhysicalObject, collisions_list);
   for (var i = 0; i < ds_list_size(collisions_list); i++) {
     var curr = collisions_list[| i];
-    var consumed = curr.onStrike(true);
+    var strike = new Strike(true, velocity_x, velocity_y);
+    var consumed = curr.onStrike(strike);
     if (consumed) {
       has_struck = true;
       break;

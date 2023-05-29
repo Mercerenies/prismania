@@ -6,4 +6,4 @@ archery = false;
 // DEBUG CODE
 double_jump = true;
 wall_jump = true;
-archery = true;
+archery = true

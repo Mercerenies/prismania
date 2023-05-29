@@ -1,6 +1,6 @@
 
 event_inherited();
 
-onStrike = function(is_player_attack) {
+onStrike = function(strike) {
   return true; // Solid objects consume arrows by default
 }

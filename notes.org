@@ -66,5 +66,6 @@
     + [ ] Large blocks
       - [ ] Ordinary
       - [ ] Variant that is a crystal
+    + [ ] Spring?
 *** OTHER GOALS
     + [ ] Trajectory helper for the arrows

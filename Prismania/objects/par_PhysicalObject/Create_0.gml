@@ -1,9 +1,10 @@
 
 // Parent class of all physical objects
 
-// Called when a melee strike or arrow hits this object.
+// Called when a melee strike or arrow hits this object. The argument
+// is a Strike object describing the velocity and owner of the attack.
 // Returns true if the striking object should be consumed.
-onStrike = function(is_player_attack) {
+onStrike = function(strike) {
   return false;
 }
 
