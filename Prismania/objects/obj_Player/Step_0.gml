@@ -125,6 +125,7 @@ if (bow_out) {
   bow_out_time = 0;
 }
 
+/*
 // Pick up or drop an object
 if (rightMousePressed()) {
   if (is_undefined(carrying)) {
@@ -145,6 +146,20 @@ if (rightMousePressed()) {
     block.velocity_y = -5;
     carrying = undefined;
   }
+}
+*/
+
+// Update personal crystal
+has_personal_crystal = ctrl_UnlockedAbilities.personal_crystal;
+if (has_personal_crystal) {
+  if (rightMouseDown()) {
+    personal_crystal_radius = toward(personal_crystal_radius, PLAYER_PERSONAL_CRYSTAL_RADIUS, bt * 5);
+  } else {
+    personal_crystal_radius = toward(personal_crystal_radius, 0, bt * 5);
+  }
+  is_personal_crystal_active = (personal_crystal_radius > 0);
+} else {
+  is_personal_crystal_active = false;
 }
 
 // Check if we're outside the room

@@ -90,3 +90,5 @@ tmp_list = ds_list_create();
 
 // Object being carried (if any)
 carrying = undefined;
+
+personal_crystal_radius = 0;

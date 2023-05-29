@@ -22,3 +22,7 @@ function leftMousePressed() {
 function rightMousePressed() {
   return mouse_check_button_pressed(mb_right);
 }
+
+function rightMouseDown() {
+  return mouse_check_button(mb_right);
+}
