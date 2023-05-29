@@ -30,6 +30,7 @@
     {"id":{"name":"obj_PlayerTorsoDeath","path":"objects/obj_PlayerTorsoDeath/obj_PlayerTorsoDeath.yy",},"order":0,},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":1,},
     {"id":{"name":"spr_SurfaceManager","path":"sprites/spr_SurfaceManager/spr_SurfaceManager.yy",},"order":4,},
+    {"id":{"name":"spr_BowMirrored","path":"sprites/spr_BowMirrored/spr_BowMirrored.yy",},"order":7,},
     {"id":{"name":"spr_PlayerTorsoMirrored","path":"sprites/spr_PlayerTorsoMirrored/spr_PlayerTorsoMirrored.yy",},"order":3,},
     {"id":{"name":"spr_PlayerTorso","path":"sprites/spr_PlayerTorso/spr_PlayerTorso.yy",},"order":2,},
     {"id":{"name":"spr_PlayerMask","path":"sprites/spr_PlayerMask/spr_PlayerMask.yy",},"order":1,},

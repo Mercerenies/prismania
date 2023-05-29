@@ -30,7 +30,8 @@ onDraw = function(world) {
   var bow_index = getBowIndex();
   if (!is_undefined(bow_index)) {
     var bow_dir = getBowAngle();
-    draw_sprite_ext(spr_Bow, floor(bow_index), x + 8, y + 12 + yadjust, 1, 1, bow_dir, c_white, 1);
+    var bow_sprite = (world == World.MIRROR ? spr_BowMirrored : spr_Bow);
+    draw_sprite_ext(bow_sprite, floor(bow_index), x + 8, y + 12 + yadjust, 1, 1, bow_dir, c_white, 1);
   }
 }
 
