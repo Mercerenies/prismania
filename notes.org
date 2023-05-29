@@ -68,4 +68,4 @@
       - [ ] Variant that is a crystal
     + [ ] Spring?
 *** OTHER GOALS
-    + [ ] Trajectory helper for the arrows
+    + [X] Trajectory helper for the arrows

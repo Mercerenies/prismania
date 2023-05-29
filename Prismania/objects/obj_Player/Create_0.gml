@@ -2,11 +2,11 @@
 event_inherited();
 
 _super_onDraw = onDraw;
-onDraw = function() {
-  _super_onDraw();
+onDraw = function(world) {
+  _super_onDraw(world);
   if (bow_out) {
     var bow_dir = getBowAngle();
-    drawArrowTrajectory(x + 8, y + 12, bow_dir, c_red);
+    drawArrowTrajectory(x + 8, y + 12, bow_dir);
   }
 }
 

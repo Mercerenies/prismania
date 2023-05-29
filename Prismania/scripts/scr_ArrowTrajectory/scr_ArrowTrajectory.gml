@@ -2,13 +2,15 @@
 // TODO I don't like the FPS hit here at all!
 
 // Angle uses the Game Maker convention (so quadrant 1 is the negative Y axis, or up)
-function drawArrowTrajectory(xorigin, yorigin, angle, color) {
+function drawArrowTrajectory(xorigin, yorigin, angle) {
   // Safety check; this instance should always exist.
   if (!instance_exists(obj_ArrowMaskSimulator)) {
     return;
   }
 
-  draw_set_color(color);
+  draw_set_color(c_white);
+  draw_set_alpha(0);
+  gpu_set_blendmode_ext(bm_inv_dest_color, bm_inv_src_color);
   var arrow_velocity_x = lengthdir_x(10, angle);
   var arrow_velocity_y = lengthdir_y(10, angle);
   var xx = xorigin + arrow_velocity_x;
@@ -28,4 +30,6 @@ function drawArrowTrajectory(xorigin, yorigin, angle, color) {
     yy += 2 * arrow_velocity_y;
     arrow_velocity_y += 2 * ARROW_GRAVITY_CONSTANT;
   }
+  draw_set_alpha(1);
+  gpu_set_blendmode(bm_normal);
 }
