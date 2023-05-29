@@ -8,7 +8,7 @@ var objects = arrayOf(par_PhysicalObject);
 array_sort(objects, function(a, b) { return a.id - b.id; });
 
 // Draw regular world
-draw_set_color(c_black); // DEBUG CODE
+draw_set_color($4C4C4C); // DEBUG CODE
 draw_rectangle(0, 0, room_width, room_height, false); // DEBUG CODE
 for (var i = 0; i < array_length(objects); i++) {
   with (objects[i]) {

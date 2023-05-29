@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ed8fd763-3889-48cb-b044-bc8f16e59686","path":"sprites/spr_Arrow/spr_Arrow.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed8fd763-3889-48cb-b044-bc8f16e59686","path":"sprites/spr_Arrow/spr_Arrow.yy",},"LayerId":{"name":"999345b0-9519-47ca-905d-f506d5c650cb","path":"sprites/spr_Arrow/spr_Arrow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Arrow","path":"sprites/spr_Arrow/spr_Arrow.yy",},"resourceVersion":"1.0","name":"ed8fd763-3889-48cb-b044-bc8f16e59686","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b2b213b1-e105-49b3-817d-8827f7c29ade","path":"sprites/spr_ArrowMirrored/spr_ArrowMirrored.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b2b213b1-e105-49b3-817d-8827f7c29ade","path":"sprites/spr_ArrowMirrored/spr_ArrowMirrored.yy",},"LayerId":{"name":"ec704f3b-5c48-4a41-84c9-095fc78e3a44","path":"sprites/spr_ArrowMirrored/spr_ArrowMirrored.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ArrowMirrored","path":"sprites/spr_ArrowMirrored/spr_ArrowMirrored.yy",},"resourceVersion":"1.0","name":"b2b213b1-e105-49b3-817d-8827f7c29ade","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Arrow","path":"sprites/spr_Arrow/spr_Arrow.yy",},
+    "spriteId": {"name":"spr_ArrowMirrored","path":"sprites/spr_ArrowMirrored/spr_ArrowMirrored.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5f84f425-5707-4a89-866e-60041b9668c6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed8fd763-3889-48cb-b044-bc8f16e59686","path":"sprites/spr_Arrow/spr_Arrow.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0e8ffcbb-6eea-455b-81b2-739bf9cdc0bf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2b213b1-e105-49b3-817d-8827f7c29ade","path":"sprites/spr_ArrowMirrored/spr_ArrowMirrored.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 5,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Arrow","path":"sprites/spr_Arrow/spr_Arrow.yy",},
+    "parent": {"name":"spr_ArrowMirrored","path":"sprites/spr_ArrowMirrored/spr_ArrowMirrored.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_Arrow",
+    "name": "spr_ArrowMirrored",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"999345b0-9519-47ca-905d-f506d5c650cb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec704f3b-5c48-4a41-84c9-095fc78e3a44","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Kinematic Object/Attacks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_Arrow",
+  "name": "spr_ArrowMirrored",
   "tags": [],
   "resourceType": "GMSprite",
 }
