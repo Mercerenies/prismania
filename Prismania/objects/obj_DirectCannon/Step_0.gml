@@ -1,6 +1,10 @@
 
 event_inherited();
 
+if (isShowingModal()) {
+  exit;
+}
+
 if (instance_exists(obj_Player)) {
   var cx = mean(obj_Player.bbox_left, obj_Player.bbox_right);
   var cy = mean(obj_Player.bbox_top, obj_Player.bbox_bottom);

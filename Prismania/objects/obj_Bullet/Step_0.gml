@@ -3,6 +3,10 @@ event_inherited();
 
 var bt = ctrl_BulletTimeManager.global_speed_multiplier;
 
+if (isShowingModal()) {
+  exit;
+}
+
 if (has_struck) {
   image_alpha = toward(image_alpha, 0, 0.05);
   if (image_alpha <= 0) {

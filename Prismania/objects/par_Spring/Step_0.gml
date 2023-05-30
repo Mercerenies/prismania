@@ -1,4 +1,10 @@
 
+event_inherited();
+
+if (isShowingModal()) {
+  exit;
+}
+
 getCollisions(self, par_KinematicObject, collisions_list);
 for (var i = 0; i < ds_list_size(collisions_list); i++) {
   var obj = collisions_list[| i];

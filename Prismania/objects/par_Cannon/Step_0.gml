@@ -1,4 +1,9 @@
 event_inherited();
+
+if (isShowingModal()) {
+  exit;
+}
+
 var bt = ctrl_BulletTimeManager.global_speed_multiplier;
 
 fire_timer_counter += bt;

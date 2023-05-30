@@ -1,6 +1,10 @@
 
 var bt = ctrl_BulletTimeManager.global_speed_multiplier;
 
+if (isShowingModal()) {
+  exit;
+}
+
 var target_blend = 0;
 var target_radius = 0;
 if (is_active) {
