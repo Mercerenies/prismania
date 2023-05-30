@@ -3,6 +3,10 @@ event_inherited();
 
 onCollect = function() {
   if (!obj_Player.has_shield) {
+    if (!ctrl_UnlockedAbilities.has_collected_shield) {
+      ctrl_UnlockedAbilities.has_collected_shield = true;
+      showUpgradeBox(spr_BigShield, 0, "Got a Greenshield!", "This shield automatically protects you from one death. But it only works in this room.");
+    }
     obj_Player.has_shield = true;
     instance_destroy();
   }
