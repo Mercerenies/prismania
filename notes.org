@@ -10,6 +10,11 @@
    dimension. The Prismanian government fears the worst, so the player
    (Prisman, of course) must travel to the mirror lands and put a stop
    to their evil machinations.
+*** CHARACTERS
+    + Prisman, the hero of our story
+    + Professor Triangle, the exposition helper of the early game
+    + General Pyramid, the first two boss fights
+    + The Icosaking, the final boss
 ** GAMEPLAY
    The player moves through the map to get to the end.
 *** PLAYER ACTIONS
