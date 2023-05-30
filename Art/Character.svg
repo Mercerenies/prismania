@@ -40,9 +40,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.1156101"
-     inkscape:cx="272.30492"
-     inkscape:cy="440.17188"
+     inkscape:zoom="16.46244"
+     inkscape:cx="623.80373"
+     inkscape:cy="605.32248"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -50,7 +50,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true" />
   <defs
      id="defs2">
     <linearGradient
@@ -294,6 +294,58 @@
        y1="141.19083"
        x2="86.420418"
        y2="147.39461" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4370"
+       x="-0.094672266"
+       width="1.1893445"
+       y="-0.10258351"
+       height="1.205167">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.21232741"
+         id="feGaussianBlur4372" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4374"
+       x="-0.071847599"
+       width="1.1436952"
+       y="-0.084463318"
+       height="1.1689266">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.21232741"
+         id="feGaussianBlur4376" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4548"
+       x="-0.033297217"
+       width="1.0665944"
+       y="-0.02287292"
+       height="1.0457458">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.041513301"
+         id="feGaussianBlur4550" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4552"
+       x="-0.033152604"
+       width="1.0663052"
+       y="-0.02277358"
+       height="1.0455472">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.041333005"
+         id="feGaussianBlur4554" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -2780,6 +2832,122 @@
        y="116.54981"
        ry="1.3412911"
        inkscape:export-filename="RegularWallInactive.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path4040"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#498f55;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.061;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 164.96373,157.21557 c -0.53566,0.007 -1.0608,0.30678 -1.22185,0.85193 l 0.0332,0.60497 c -0.21534,0.44779 -0.25376,0.98987 -0.093,1.4748 0.21271,0.64167 0.7267,1.14571 1.34941,1.39309 l 0.0136,0.0311 c 0.0115,-0.004 0.0229,-0.008 0.0343,-0.0127 0.0114,0.004 0.0227,0.009 0.0342,0.0127 l 0.0136,-0.0311 c 0.62274,-0.24737 1.13669,-0.7514 1.34941,-1.39309 0.16075,-0.48492 0.12241,-1.02701 -0.0929,-1.4748 l 0.0332,-0.60497 c -0.17264,-0.58437 -0.76365,-0.88707 -1.3375,-0.84852 -0.0385,-0.003 -0.0771,-0.004 -0.11565,-0.003 z"
+       sodipodi:nodetypes="cccscccccsccccc"
+       inkscape:export-filename="Greenshield.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path4087"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#6ed880;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0573673;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 164.97062,157.34548 c -0.50376,0.007 -0.99763,0.28852 -1.14909,0.8012 l 0.0312,0.56894 c -0.20251,0.42113 -0.23865,0.93093 -0.0875,1.38698 0.20004,0.60345 0.68342,1.07748 1.26905,1.31013 l 0.0128,0.0292 c 0.0108,-0.004 0.0215,-0.008 0.0323,-0.0119 0.0107,0.004 0.0213,0.008 0.0322,0.0119 l 0.0128,-0.0292 c 0.58566,-0.23264 1.069,-0.70666 1.26905,-1.31013 0.15118,-0.45605 0.11512,-0.96585 -0.0874,-1.38698 l 0.0312,-0.56894 c -0.16236,-0.54957 -0.71818,-0.83424 -1.25785,-0.79799 -0.0362,-0.003 -0.0725,-0.004 -0.10877,-0.003 z"
+       sodipodi:nodetypes="cccscccccsccccc"
+       inkscape:export-filename="Greenshield.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <text
+       xml:space="preserve"
+       style="font-weight:900;font-size:1.00735px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Heavy';font-variation-settings:normal;opacity:1;vector-effect:none;fill:#56a964;fill-opacity:1;stroke:none;stroke-width:0.00580618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       x="216.92941"
+       y="71.843857"
+       id="text4068"
+       transform="rotate(25.864082)"
+       inkscape:export-filename="Greenshield.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         id="tspan4066"
+         x="216.92941"
+         y="71.843857"
+         style="font-variation-settings:normal;vector-effect:none;fill:#56a964;fill-opacity:1;stroke:none;stroke-width:0.00580618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">GTB</tspan></text>
+    <path
+       id="rect441-9-3"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.092116;stop-color:#000000;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4374);stop-opacity:1"
+       d="m 34.43538,158.39612 -2.899566,1.42989 4.235403,4.60333 2.85719,-5.16299 z"
+       inkscape:export-filename="WhiteHeadBorder.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="rect3715-1-5"
+       style="font-variation-settings:normal;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.092116;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;opacity:1;filter:url(#filter4374);stop-opacity:1"
+       d="m 28.938042,166.2251 -2.872176,0.20464 0.115237,3.45819 1.553395,1.29656 c -0.0824,-0.0493 0.213053,0.0189 5.29e-4,0 0.003,0.0579 3.713469,-0.21239 3.713469,-0.21239 l -0.197405,-3.44992 z"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="WhiteTorsoBorder.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path4182"
+       style="fill:#000000;stroke:#000000;stroke-width:0.092116;stop-color:#000000;fill-opacity:1;filter:url(#filter4374)"
+       d="m 53.785994,158.46041 -2.899566,1.42989 4.235403,4.60333 2.85719,-5.16299 z"
+       inkscape:export-filename="BlackHeadBorder.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path4184"
+       style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.092116;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;filter:url(#filter4370)"
+       d="m 48.288656,166.28939 -2.872176,0.20464 0.115237,3.45819 1.553395,1.29656 c -0.0824,-0.0493 0.213053,0.0189 5.29e-4,0 0.003,0.0579 3.713469,-0.21239 3.713469,-0.21239 l -0.197405,-3.44992 z"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="BlackTorsoBorder.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.348155;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;"
+       id="rect4424"
+       width="163.52376"
+       height="70.220451"
+       x="70.949387"
+       y="589.94897"
+       transform="scale(0.26458333)" />
+    <path
+       id="path4434"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.061;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;filter:url(#filter4548)"
+       d="m 164.96373,157.21557 c -0.53566,0.007 -1.0608,0.30678 -1.22185,0.85193 l 0.0332,0.60497 c -0.21534,0.44779 -0.25376,0.98987 -0.093,1.4748 0.21271,0.64167 0.7267,1.14571 1.34941,1.39309 l 0.0136,0.0311 c 0.0115,-0.004 0.0229,-0.008 0.0343,-0.0127 0.0114,0.004 0.0227,0.009 0.0342,0.0127 l 0.0136,-0.0311 c 0.62274,-0.24737 1.13669,-0.7514 1.34941,-1.39309 0.16075,-0.48492 0.12241,-1.02701 -0.0929,-1.4748 l 0.0332,-0.60497 c -0.17264,-0.58437 -0.76365,-0.88707 -1.3375,-0.84852 -0.0385,-0.003 -0.0771,-0.004 -0.11565,-0.003 z"
+       sodipodi:nodetypes="cccscccccsccccc"
+       inkscape:export-filename="Greenshield.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path4040-0"
+       style="font-variation-settings:normal;vector-effect:none;fill:#498f55;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.061;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 169.31476,155.74132 c -0.53566,0.007 -1.0608,0.30678 -1.22185,0.85193 l 0.0332,0.60497 c -0.21534,0.44779 -0.25376,0.98987 -0.093,1.4748 0.21271,0.64167 0.7267,1.14571 1.34941,1.39309 l 0.0136,0.0311 c 0.0115,-0.004 0.0229,-0.008 0.0343,-0.0127 0.0114,0.004 0.0227,0.009 0.0342,0.0127 l 0.0136,-0.0311 c 0.62274,-0.24737 1.13669,-0.7514 1.34941,-1.39309 0.16075,-0.48492 0.12241,-1.02701 -0.0929,-1.4748 l 0.0332,-0.60497 c -0.17264,-0.58437 -0.76365,-0.88707 -1.3375,-0.84852 -0.0385,-0.003 -0.0771,-0.004 -0.11565,-0.003 z"
+       sodipodi:nodetypes="cccscccccsccccc"
+       inkscape:export-filename="GreenshieldRegular.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path4087-1"
+       style="font-variation-settings:normal;vector-effect:none;fill:#6ed880;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0573673;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 169.32165,155.87123 c -0.50376,0.007 -0.99763,0.28852 -1.14909,0.8012 l 0.0312,0.56894 c -0.20251,0.42113 -0.23865,0.93093 -0.0875,1.38698 0.20004,0.60345 0.68342,1.07748 1.26905,1.31013 l 0.0128,0.0292 c 0.0108,-0.004 0.0215,-0.008 0.0323,-0.0119 0.0107,0.004 0.0213,0.008 0.0322,0.0119 l 0.0128,-0.0292 c 0.58566,-0.23264 1.069,-0.70666 1.26905,-1.31013 0.15118,-0.45605 0.11512,-0.96585 -0.0874,-1.38698 l 0.0312,-0.56894 c -0.16236,-0.54957 -0.71818,-0.83424 -1.25785,-0.79799 -0.0362,-0.003 -0.0725,-0.004 -0.10877,-0.003 z"
+       sodipodi:nodetypes="cccscccccsccccc"
+       inkscape:export-filename="GreenshieldRegular.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <text
+       xml:space="preserve"
+       style="font-weight:900;font-size:1.00735px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Heavy';font-variation-settings:normal;vector-effect:none;fill:#56a964;fill-opacity:1;stroke:none;stroke-width:0.00580618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       x="220.20148"
+       y="68.619202"
+       id="text4068-3"
+       transform="rotate(25.864082)"
+       inkscape:export-filename="GreenshieldRegular.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         id="tspan4066-1"
+         x="220.20148"
+         y="68.619202"
+         style="font-variation-settings:normal;vector-effect:none;fill:#56a964;fill-opacity:1;stroke:none;stroke-width:0.00580618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">GTB</tspan></text>
+    <path
+       id="path4434-1"
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.061;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;filter:url(#filter4552)"
+       d="m 169.31476,155.74132 c -0.53566,0.007 -1.0608,0.30678 -1.22185,0.85193 l 0.0332,0.60497 c -0.21534,0.44779 -0.25376,0.98987 -0.093,1.4748 0.21271,0.64167 0.7267,1.14571 1.34941,1.39309 l 0.0136,0.0311 c 0.0115,-0.004 0.0229,-0.008 0.0343,-0.0127 0.0114,0.004 0.0227,0.009 0.0342,0.0127 l 0.0136,-0.0311 c 0.62274,-0.24737 1.13669,-0.7514 1.34941,-1.39309 0.16075,-0.48492 0.12241,-1.02701 -0.0929,-1.4748 l 0.0332,-0.60497 c -0.17264,-0.58437 -0.76365,-0.88707 -1.3375,-0.84852 -0.0385,-0.003 -0.0771,-0.004 -0.11565,-0.003 z"
+       sodipodi:nodetypes="cccscccccsccccc"
+       inkscape:export-filename="GreenshieldRegular.png"
        inkscape:export-xdpi="96.199997"
        inkscape:export-ydpi="96.199997" />
   </g>

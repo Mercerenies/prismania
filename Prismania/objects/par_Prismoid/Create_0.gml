@@ -25,14 +25,19 @@ getBowAngle = function() {
   return 0;
 }
 
+getYAdjust = function() {
+  return 2 * sin(sine_tick * 2 * pi / 60);
+}
+
 onDraw = function(world) {
   var head = getHead(world);
   var torso = getTorso(world);
 
-  var yadjust = 2 * sin(sine_tick * 2 * pi / 60);
+  var yadjust = getYAdjust();
 
-  draw_sprite_ext(torso, 0, xprevious + 8, yprevious + 24 + yadjust, facing_dir, 1, 0, getTorsoBlend(world), 1);
-  draw_sprite_ext(head, 0, x + 8 , y + 8 + yadjust, facing_dir, 1, 0, getHeadBlend(world), 1);
+  var a = draw_get_alpha();
+  draw_sprite_ext(torso, 0, xprevious + 8, yprevious + 24 + yadjust, facing_dir, 1, 0, getTorsoBlend(world), a);
+  draw_sprite_ext(head, 0, x + 8 , y + 8 + yadjust, facing_dir, 1, 0, getHeadBlend(world), a);
 
   // Personal Crystal
   if (has_personal_crystal) {

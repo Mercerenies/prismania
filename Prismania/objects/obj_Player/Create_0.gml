@@ -3,7 +3,27 @@ event_inherited();
 
 _super_onDraw = onDraw;
 onDraw = function(world) {
+
+  if (invincibility_timer > 0) {
+    draw_set_alpha(0.5);
+  }
+
+  var a = draw_get_alpha();
+  if (has_shield) {
+    var yadjust = getYAdjust();
+    var head_sprite = spr_HeadOutline;
+    var torso_sprite = spr_TorsoOutline;
+    if (world == World.MIRROR) {
+      head_sprite = spr_HeadOutlineMirrored;
+      torso_sprite = spr_TorsoOutlineMirrored;
+    }
+    draw_sprite_ext(torso_sprite, 0, xprevious + 8, yprevious + 24 + yadjust, facing_dir, 1, 0, getTorsoBlend(world), a);
+    draw_sprite_ext(head_sprite, 0, x + 8 , y + 8 + yadjust, facing_dir, 1, 0, getHeadBlend(world), a);
+  }
+
   _super_onDraw(world);
+
+  draw_set_alpha(1);
 
   // Held object
   if (!is_undefined(carrying)) {
@@ -45,7 +65,18 @@ getBowAngle = function() {
   return point_direction(x + 8, y + 12, mouse_x, mouse_y);
 }
 
-die = function() {
+// A forced death is one that bypasses shield immunity and
+// invincibility frames. Currently, the only forced death in this game
+// is the one that occurs when you fall below the screen.
+die = function(forced) {
+  if ((invincibility_timer > 0) && !forced) {
+    return;
+  }
+  if (has_shield && !forced) {
+    has_shield = false;
+    invincibility_timer = 120;
+    return;
+  }
   instance_create_layer(x + 8, y + 8, "Instances", obj_PlayerHeadDeath);
   instance_create_layer(x + 8, y + 24, "Instances", obj_PlayerTorsoDeath);
   instance_destroy();
@@ -92,3 +123,6 @@ tmp_list = ds_list_create();
 carrying = undefined;
 
 personal_crystal_radius = 0;
+
+has_shield = false;
+invincibility_timer = 0;

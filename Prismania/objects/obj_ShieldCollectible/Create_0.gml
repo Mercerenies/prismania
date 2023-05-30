@@ -2,8 +2,8 @@
 event_inherited();
 
 onCollect = function() {
-  if (ctrl_UnlockedAbilities.personal_crystal) {
-    obj_Player.has_personal_crystal = true;
+  if (!obj_Player.has_shield) {
+    obj_Player.has_shield = true;
     instance_destroy();
   }
 }
@@ -11,9 +11,9 @@ onCollect = function() {
 onDraw = function(world) {
   var yadjust = 5 * sin(sine_tick * 2 * pi / 60);
   if (world == World.MIRROR) {
-    sprite_index = spr_PersonalCrystalCollectibleMirrored;
+    sprite_index = spr_ShieldCollectibleMirrored;
   } else {
-    sprite_index = spr_PersonalCrystalCollectible;
+    sprite_index = spr_ShieldCollectible;
   }
   draw_sprite(sprite_index, 0, x, y + yadjust);
 }

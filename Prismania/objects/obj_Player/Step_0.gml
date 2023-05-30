@@ -161,9 +161,14 @@ if (has_personal_crystal) {
   is_personal_crystal_active = false;
 }
 
+// Update invincibility frames
+if (invincibility_timer > 0) {
+  invincibility_timer -= bt;
+}
+
 // Check if we're outside the room
 if (bbox_top > room_height) {
-  die();
+  die(true);
   exit;
 }
 
@@ -172,7 +177,7 @@ ds_list_clear(tmp_list);
 getCollisions(self, par_PhysicalObject, tmp_list);
 for (var i = 0; i < ds_list_size(tmp_list); i++) {
   if (tmp_list[| i].kills_player_on_contact) {
-    die();
+    die(false);
     exit;
   }
 }
