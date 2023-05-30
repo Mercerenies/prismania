@@ -10,10 +10,10 @@ function createKinematicObject() {
     var yy = 0;
     for (var i = 0; i < ds_list_size(collisions); i++) {
       var c = collisions[| i];
-      var collision_center_x1 = mean(max(bbox_left, c.bbox_left));
-      var collision_center_y1 = mean(max(bbox_top, c.bbox_top));
-      var collision_center_x2 = mean(min(bbox_right, c.bbox_right));
-      var collision_center_y2 = mean(min(bbox_bottom, c.bbox_bottom));
+      var collision_center_x1 = c.bbox_left; // max(bbox_left, c.bbox_left);
+      var collision_center_y1 = c.bbox_top; // max(bbox_top, c.bbox_top);
+      var collision_center_x2 = c.bbox_right; // min(bbox_right, c.bbox_right);
+      var collision_center_y2 = c.bbox_bottom; // min(bbox_bottom, c.bbox_bottom);
       xx += (mean(collision_center_x1, collision_center_x2) - center_x);
       yy += (mean(collision_center_y1, collision_center_y2) - center_y);
     }
@@ -96,7 +96,7 @@ function stepKinematicObject() {
 
     if (!repelled) {
       repel_panic_timer = 0;
-    } else if (repel_panic_timer > 30) {
+    } else if (repel_panic_timer > 90) {
       // Avoiding softlocks in the most hacky way possible.
       while (collidesWith(self, par_Solid)) {
         y -= 4;
