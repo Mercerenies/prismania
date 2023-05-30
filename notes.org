@@ -25,7 +25,7 @@
     + [X] +Super strength (can pick up and throw larger objects with right mouse as well)+
     + [X] Double jump
     + [X] Wall jumps
-    + [ ] Crystal core (allows you to collect portable crystals and use them with RMB)
+    + [X] Crystal core (allows you to collect portable crystals and use them with RMB)
 
     Hitting a crystal (with either the punching attack or an arrow)
     causes it to activate or deactivate. An active crystal transports
