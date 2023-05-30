@@ -3,7 +3,34 @@ event_inherited();
 
 target_angle = 0;
 
-onDraw = function() {
+fire_timer = 90;
+fire_timer_counter = 0;
+bullet_speed = 4;
+bullet_worlds = World.REGULAR | World.MIRROR;
+
+onDraw = function(world) {
   draw_self();
-  draw_sprite_ext(spr_CannonHead, 0, x + 16, y + 16, 1, 1, target_angle, c_white, 1);
+  if (world & bullet_worlds) {
+    draw_sprite_ext(spr_CannonHead, 0, x + 16, y + 16, 1, 1, target_angle, c_white, 1);
+  }
+}
+
+fireBullet = function() {
+  var vx = lengthdir_x(bullet_speed, target_angle);
+  var vy = lengthdir_y(bullet_speed, target_angle);
+  with (instance_create_layer(x + 16 + vx * 2, y + 16 + vy * 2, "Instances", obj_Bullet)) {
+    velocity_x = vx;
+    velocity_y = vy;
+    owner = other.id;
+    worlds = other.bullet_worlds;
+  }
+}
+
+onStrike = function(strike) {
+  var instance = strike.owner;
+  if ((isSelfOrAncestor(instance.object_index, obj_Bullet)) && (instance.owner.id == self.id)) {
+    // Do not consume bullets that were fired from this same cannon.
+    return false;
+  }
+  return true;
 }

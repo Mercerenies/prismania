@@ -1,5 +1,6 @@
 
-function Strike(attack_type_, velocity_x_, velocity_y_) constructor {
+function Strike(owner_, attack_type_, velocity_x_, velocity_y_) constructor {
+  owner = owner_; // Instance that is performing the strike.
   attack_type = attack_type_; // AttackType enum constant.
   velocity_x = velocity_x_;
   velocity_y = velocity_y_;

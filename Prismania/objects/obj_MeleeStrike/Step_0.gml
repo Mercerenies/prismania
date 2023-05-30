@@ -10,7 +10,7 @@ if (!has_struck) {
   }
   for (var i = 0; i < ds_list_size(collisions); i++) {
     var curr = collisions[| i];
-    var strike = new Strike(AttackType.PLAYER, attack_velocity_x, 0);
+    var strike = new Strike(self, AttackType.PLAYER, attack_velocity_x, 0);
     curr.onStrike(strike);
   }
   ds_list_destroy(collisions);

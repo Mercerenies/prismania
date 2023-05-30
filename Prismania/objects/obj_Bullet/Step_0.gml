@@ -13,20 +13,20 @@ if (has_struck) {
   x += velocity_x * bt;
   y += velocity_y * bt;
 
-  // Gravity
-  velocity_y += ARROW_GRAVITY_CONSTANT * bt;
-
   // Collisions
   ds_list_clear(collisions_list);
   getCollisions(self, par_PhysicalObject, collisions_list);
   for (var i = 0; i < ds_list_size(collisions_list); i++) {
     var curr = collisions_list[| i];
-    var strike = new Strike(self, AttackType.PLAYER, velocity_x, velocity_y);
+    var strike = new Strike(self, AttackType.ENEMY, velocity_x, velocity_y);
     var consumed = curr.onStrike(strike);
     if (consumed) {
       has_struck = true;
       break;
     }
   }
+
+  // Angle animation
+  angle += bt * 10;
 
 }

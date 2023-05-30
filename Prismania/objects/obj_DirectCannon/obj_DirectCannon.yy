@@ -1,9 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "par_Cannon",
+  "name": "obj_DirectCannon",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -13,8 +12,8 @@
     "path": "folders/Cannons.yy",
   },
   "parentObjectId": {
-    "name": "par_Solid",
-    "path": "objects/par_Solid/par_Solid.yy",
+    "name": "par_Cannon",
+    "path": "objects/par_Cannon/par_Cannon.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -7,6 +7,14 @@ function toward(initial, target, delta) {
   }
 }
 
+function angleToward(initial, target, delta) {
+  if (abs(angle_difference(target, initial)) <= delta) {
+    return target;
+  } else {
+    return initial + sign(angle_difference(target, initial)) * delta;
+  }
+}
+
 // Takes angles from 0 (right) to 7 (up-right), in clockwise order.
 function angleDifference(dest, src) {
   return angle_difference(dest * 45, src * 45) / 45;
@@ -31,4 +39,10 @@ function arrayOf(obj) {
     instances[i++] = self;
   }
   return instances;
+}
+
+// This is just object_is_ancestor but without the monumentally stupid
+// corner case that an object is not its own ancestor.
+function isSelfOrAncestor(child, parent) {
+  return (child == parent) || (object_is_ancestor(child, parent));
 }

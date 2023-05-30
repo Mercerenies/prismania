@@ -40,9 +40,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="8.2312202"
-     inkscape:cx="-65.814704"
-     inkscape:cy="496.16423"
+     inkscape:zoom="4.1156101"
+     inkscape:cx="-54.494856"
+     inkscape:cy="501.61837"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -50,7 +50,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true" />
   <defs
      id="defs2">
     <linearGradient
@@ -3142,7 +3142,7 @@
        inkscape:export-ydpi="96.199997" />
     <path
        sodipodi:type="star"
-       style="font-variation-settings:normal;opacity:1;mix-blend-mode:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.069;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.138, 0.13800000000000001;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;mix-blend-mode:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.738,0.738;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        id="path4839"
        sodipodi:sides="3"
        sodipodi:cx="-13.485747"
@@ -3161,7 +3161,7 @@
        inkscape:export-ydpi="96.199997" />
     <path
        sodipodi:type="star"
-       style="font-variation-settings:normal;opacity:1;mix-blend-mode:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.069;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.138, 0.13800000000000001;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;mix-blend-mode:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.738,0.738;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        id="path4841"
        sodipodi:sides="3"
        sodipodi:cx="-12.296424"
@@ -3176,6 +3176,60 @@
        d="m -12.296424,135.49477 c 0.265758,0 1.46167,2.07138 1.328791,2.30154 -0.13288,0.23015 -2.524702,0.23015 -2.657581,0 -0.132879,-0.23016 1.063032,-2.30154 1.32879,-2.30154 z"
        inkscape:transform-center-y="-0.3576975"
        inkscape:export-filename="BulletOutlineWhite.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#562716;fill-opacity:1;stroke:#000000;stroke-width:0.0104858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m -10.367606,150.65223 -2.15949,-1.48569 0.05682,2.57975 z"
+       id="path1236"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="CannonHead.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#431e11;fill-opacity:1;stroke:#000000;stroke-width:0.0104858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m -10.979679,147.35028 -1.547417,1.81626 1.557167,1.23567 z"
+       id="path1226"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="CannonHead.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:#562716;fill-opacity:1;stroke:#000000;stroke-width:0.0104858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m -10.02202,150.42411 -2.448253,1.32218 1.307146,1.47433 z"
+       id="path1228"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="CannonHead.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path1234"
+       style="font-variation-settings:normal;mix-blend-mode:normal;vector-effect:none;fill:#863e23;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       inkscape:transform-center-x="0.57017091"
+       inkscape:transform-center-y="0.060020009"
+       d="m -11.176452,150.12839 c 0.0067,-0.15533 4.3788375,-0.36877 4.5100191,-0.28532 0.1311817,0.0835 0.1823976,1.97611 0.044536,2.04799 -0.1378626,0.0719 -4.5612351,-1.60734 -4.5545551,-1.76267 z"
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="CannonHead.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path1230"
+       style="font-variation-settings:normal;mix-blend-mode:normal;vector-effect:none;fill:#73351e;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       inkscape:transform-center-x="-0.57017095"
+       inkscape:transform-center-y="-0.060017642"
+       d="m -6.5986976,151.9646 c -0.00668,0.15533 -4.4642384,1.42114 -4.5954204,1.33769 -0.131182,-0.0835 -0.097,-2.96934 0.04087,-3.04122 0.137863,-0.0719 4.5612352,1.5482 4.5545544,1.70353 z"
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="CannonHead.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path1232"
+       style="font-variation-settings:normal;mix-blend-mode:normal;vector-effect:none;fill:#863e23;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       inkscape:transform-center-x="-0.57017095"
+       inkscape:transform-center-y="0.060020009"
+       d="m -6.5986976,149.85155 c -0.00668,-0.15533 -4.2824054,-2.53486 -4.4135874,-2.45141 -0.131182,0.0835 -0.278829,2.65113 -0.140967,2.72301 0.137863,0.0719 4.5612352,-0.11627 4.5545544,-0.2716 z"
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="CannonHead.png"
        inkscape:export-xdpi="96.199997"
        inkscape:export-ydpi="96.199997" />
   </g>
