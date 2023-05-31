@@ -9,6 +9,7 @@ personal_crystal = false;
 // Other Persistent Help Screens
 has_collected_shield = false;
 has_collected_crystal = false;
+has_collected_coin = false;
 
 // Player spawn coordinates in the next room. spawn_x and spawn_y are
 // the coordinates the player will spawn at the next time a room
@@ -32,4 +33,16 @@ visitRoom = function() {
 
 isRoomVisited = function() {
   return ds_map_exists(visited_rooms, room_get_name(room));
+}
+
+// Which room coins you've already collected (this
+// ds_map is never freed, by design)
+coined_rooms = ds_map_create();
+
+markCoin = function() {
+  coined_rooms[? room_get_name(room)] = 1;
+}
+
+hasCoin = function() {
+  return ds_map_exists(coined_rooms, room_get_name(room));
 }
