@@ -32,12 +32,13 @@ function ConstantTransitionRule(room_id_, xx_, yy_) : TransitionRule() construct
 }
 
 // Takes two different transition rules as arguments
-function SplitTransitionRule(top_, bottom_) : TransitionRule() constructor {
+function SplitTransitionRule(cutoff_, top_, bottom_) : TransitionRule() constructor {
+  cutoff = cutoff_;
   top = top_;
   bottom = bottom_;
 
   static goto = function(player_y) {
-    if (player_y < room_height / 2) {
+    if (player_y < cutoff) {
       top.goto(player_y);
     } else {
       bottom.goto(player_y);

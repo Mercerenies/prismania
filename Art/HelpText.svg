@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="HelpText.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="182.83972"
+     inkscape:cy="369.94352"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="17.764879"
+       y="24.190472"
+       id="text835"
+       inkscape:export-filename="WasdToMove.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="17.764879"
+         y="24.190472"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583">Use WASD to move</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583;text-anchor:middle;text-align:center;"
+       x="75.463089"
+       y="58.185436"
+       id="text835-3"
+       inkscape:export-filename="SpacebarToJump.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         id="tspan833-4"
+         x="29.194742"
+         y="58.185436"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583;text-anchor:middle;text-align:center;">Hit W or SPACEBAR</tspan><tspan
+         sodipodi:role="line"
+         x="29.194742"
+         y="71.414558"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583;text-anchor:middle;text-align:center;"
+         id="tspan861">to jump</tspan></text>
+  </g>
+</svg>

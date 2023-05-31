@@ -12,6 +12,9 @@ draw_set_color($4C4C4C); // DEBUG CODE
 draw_rectangle(0, 0, room_width, room_height, false); // DEBUG CODE
 draw_tilemap(tileset_both, 0, 0);
 draw_tilemap(tileset_regular, 0, 0);
+with (obj_HelpText) {
+  onDraw(World.REGULAR);
+}
 for (var i = 0; i < array_length(objects); i++) {
   with (objects[i]) {
     onDraw(World.REGULAR);
@@ -24,6 +27,9 @@ draw_set_color(c_aqua); // DEBUG CODE
 draw_rectangle(0, 0, room_width, room_height, false); // DEBUG CODE
 draw_tilemap(tileset_both, 0, 0);
 draw_tilemap(tileset_mirror, 0, 0);
+with (obj_HelpText) {
+  onDraw(World.MIRROR);
+}
 for (var i = 0; i < array_length(objects); i++) {
   with (objects[i]) {
     onDraw(World.MIRROR);
