@@ -37,3 +37,22 @@ left_links[? "rm_Start2"] = new SplitTransitionRule(
   new ConstantTransitionRule(rm_Start1, RIGHTX, 160),
   new ConstantTransitionRule(rm_Start1, RIGHTX, 608),
 );
+
+right_links[? "rm_Start2"] = new ConstantTransitionRule(rm_Start3, LEFTX, 544);
+left_links[? "rm_Start3"] = new ConstantTransitionRule(rm_Start2, RIGHTX, 544);
+
+right_links[? "rm_Start3"] = new ConstantTransitionRule(rm_Start4, LEFTX, 224);
+left_links[? "rm_Start4"] = new ConstantTransitionRule(rm_Start3, RIGHTX, 224);
+
+right_links[? "rm_Start4"] = new ConstantTransitionRule(rm_Start5, LEFTX, 608);
+left_links[? "rm_Start5"] = new ConstantTransitionRule(rm_Start4, RIGHTX, 224);
+
+right_links[? "rm_Start5"] = new SplitTransitionRule(
+  354,
+  undefined,//new ConstantTransitionRule(rm_WallJump1, LEFTX, 608), /////
+  new ConstantTransitionRule(rm_WallJump1, LEFTX, 224),
+);
+left_links[? "rm_WallJump1"] = new ConstantTransitionRule(rm_Start5, RIGHTX, 576);
+
+right_links[? "rm_WallJump1"] = new ConstantTransitionRule(rm_WallJump2, LEFTX, 192);
+left_links[? "rm_WallJump2"] = new ConstantTransitionRule(rm_WallJump1, RIGHTX, 512);

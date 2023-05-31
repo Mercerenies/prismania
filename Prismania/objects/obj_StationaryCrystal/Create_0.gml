@@ -17,7 +17,7 @@ onDraw = function(world) {
   if (world == World.MIRROR) {
     blend = merge_color(INACTIVE_CRYSTAL_COLOR, ACTIVE_CRYSTAL_COLOR, blend_fade);
   }
-  draw_sprite_ext(spr_StationaryCrystal, 0, x, y, 1, 1, 0, blend, 1);
+  draw_sprite_ext(spr_StationaryCrystal, 0, x, y, 1, 1, image_angle, blend, 1);
 }
 
 getCrystalData = function() {
