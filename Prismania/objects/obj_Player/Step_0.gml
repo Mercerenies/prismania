@@ -191,3 +191,17 @@ if (backspacePressed()) {
   die(true);
   exit;
 }
+
+// Offscreen transitions
+var transition_rule = undefined;
+if (bbox_left > room_width) {
+  // Off right-hand side
+  transition_rule = ctrl_RoomTransitionManager.right_links[? room_get_name(room)];
+} else if (bbox_right < 0) {
+  // Off left-hand side
+  transition_rule = ctrl_RoomTransitionManager.left_links[? room_get_name(room)];
+}
+if (!is_undefined(transition_rule)) {
+  var yy = mean(bbox_top, bbox_bottom);
+  transition_rule.goto(yy);
+}

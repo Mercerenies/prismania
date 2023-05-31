@@ -10,6 +10,18 @@ personal_crystal = false;
 has_collected_shield = false;
 has_collected_crystal = false;
 
+// Player spawn coordinates in the next room. spawn_x and spawn_y are
+// the coordinates the player will spawn at the next time a room
+// starts. If respawn_x and respawn_y are also set, then they will
+// become the new spawn_x and spawn_y after that point. So when we do
+// a room transition, we set spawn_x and spawn_y to the positions the
+// player will spawn at the first time and then we set respawn_x and
+// respawn_y to the coordinates to respawn at if we die.
+spawn_x = undefined;
+spawn_y = undefined;
+respawn_x = undefined;
+respawn_y = undefined;
+
 // Which dialogue you've already seen (this
 // ds_map is never freed, by design)
 visited_rooms = ds_map_create();
