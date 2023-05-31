@@ -8,4 +8,6 @@ global.collisions_list = ds_list_create();
 // intimidate anyone reading the code in the future ^.^
 global.voronoi_data = undefined;
 
-room_goto(rm_Start); // TODO Intro dialogue
+// DEBUG CODE
+room_goto(rm_Start2);
+//room_goto(rm_Start); // TODO Intro dialogue

@@ -17,12 +17,23 @@ right_links[? "Room2"] = new SplitTransitionRule(
 
 right_links[? "rm_Start"] = new SplitTransitionRule(
   384,
-  new ConstantTransitionRule(rm_StartJumps, LEFTX, 352),
-  new ConstantTransitionRule(rm_StartJumps, LEFTX, 608),
+  new ConstantTransitionRule(rm_Start1, LEFTX, 352),
+  new ConstantTransitionRule(rm_Start1, LEFTX, 608),
 );
 
-left_links[? "rm_StartJumps"] = new SplitTransitionRule(
+left_links[? "rm_Start1"] = new SplitTransitionRule(
   384,
   new ConstantTransitionRule(rm_Start, RIGHTX, 352),
   new ConstantTransitionRule(rm_Start, RIGHTX, 608),
+);
+right_links[? "rm_Start1"] = new SplitTransitionRule(
+  192,
+  new ConstantTransitionRule(rm_Start2, LEFTX, 160),
+  new ConstantTransitionRule(rm_Start2, LEFTX, 608),
+);
+
+left_links[? "rm_Start2"] = new SplitTransitionRule(
+  192,
+  new ConstantTransitionRule(rm_Start1, RIGHTX, 160),
+  new ConstantTransitionRule(rm_Start1, RIGHTX, 608),
 );

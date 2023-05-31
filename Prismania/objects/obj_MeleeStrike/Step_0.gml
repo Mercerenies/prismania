@@ -1,6 +1,6 @@
 
 var bt = ctrl_BulletTimeManager.global_speed_multiplier;
-image_speed = bt;
+image_speed = 0.7 * bt;
 
 if (isShowingModal()) {
   exit;

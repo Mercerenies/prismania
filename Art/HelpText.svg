@@ -84,5 +84,24 @@
          y="71.414558"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583;text-anchor:middle;text-align:center;"
          id="tspan861">to jump</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="56.098827"
+       y="121.20081"
+       id="text835-3-6"
+       inkscape:export-filename="LeftMouseToAttack.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         x="56.098827"
+         y="121.20081"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="tspan861-0">Use LEFT MOUSE</tspan><tspan
+         sodipodi:role="line"
+         x="56.098827"
+         y="134.42993"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="tspan3598">BUTTON to attack</tspan></text>
   </g>
 </svg>
