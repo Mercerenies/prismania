@@ -185,3 +185,9 @@ for (var i = 0; i < ds_list_size(tmp_list); i++) {
     exit;
   }
 }
+
+// "Restart" button
+if (backspacePressed()) {
+  die(true);
+  exit;
+}

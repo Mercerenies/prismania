@@ -18,3 +18,9 @@ enum AttackType {
   NEUTRAL = 1,
   ENEMY = 2,
 }
+
+enum DialogueMugshot {
+  PROFESSOR = 0,
+  GENERAL = 1,
+  KING = 2,
+}

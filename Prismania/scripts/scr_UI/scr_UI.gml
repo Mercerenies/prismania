@@ -39,3 +39,9 @@ function showUpgradeBoxFor(upgrade_index) {
   }
   showUpgradeBox(spr_PermanentUpgrade, upgrade_index, title, text);
 }
+
+function summonDia(dialogue_array) {
+  with (instance_create_layer(room_width / 2, room_height - 4, "Instances_UI", obj_DiaBox)) {
+    dia = dialogue_array;
+  }
+}

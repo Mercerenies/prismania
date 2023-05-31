@@ -26,3 +26,11 @@ function rightMousePressed() {
 function rightMouseDown() {
   return mouse_check_button(mb_right);
 }
+
+function backspacePressed() {
+  return keyboard_check_pressed(vk_backspace);
+}
+
+function helpPressed() {
+  return keyboard_check_pressed(vk_f1);
+}

@@ -9,7 +9,7 @@ if (fading_out) {
 }
 
 tick += 1;
-if (tick > 120) {
+if (tick > 45) {
   can_exit = true;
 }
 
