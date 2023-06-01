@@ -1,0 +1,1 @@
+max_radius = 700;

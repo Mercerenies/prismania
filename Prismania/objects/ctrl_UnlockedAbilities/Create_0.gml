@@ -53,3 +53,4 @@ hasCoin = function() {
 
 // DEBUG CODE
 wall_jump = true;
+archery = true;

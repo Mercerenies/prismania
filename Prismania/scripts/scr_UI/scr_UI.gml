@@ -22,7 +22,7 @@ function showUpgradeBoxFor(upgrade_index) {
     break;
   case 1: // Archery
     title = "Unlocked Archery!";
-    text = "Prismankind's oldest ranged weapon. Use LEFT MOUSE to fire arrows and hit enemies or other objects of interest.";
+    text = "Prismankind's oldest ranged weapon. Use LEFT MOUSE to fire arrows at the mouse position.";
     break;
   case 2: // Bullet Time
     title = "Unlocked Bullet Time!";

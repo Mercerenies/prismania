@@ -72,3 +72,16 @@ left_links[? "rm_LoloHub"] = new SplitTransitionRule(
   new ConstantTransitionRule(rm_LoloPath, RIGHTX, 224),
   new ConstantTransitionRule(rm_LoloPath, RIGHTX, 608),
 );
+
+right_links[? "rm_Arrow1"] = new SplitTransitionRule(
+  300,
+  undefined, // TODO
+  new ConstantTransitionRule(rm_LoloBoss, LEFTX, 192),
+);
+left_links[? "rm_LoloBoss"] = new ConstantTransitionRule(rm_Arrow1, RIGHTX, 672);
+
+right_links[? "rm_Arrow2"] = new ConstantTransitionRule(rm_Arrow1, LEFTX, 256);
+left_links[? "rm_Arrow1"] = new ConstantTransitionRule(rm_Arrow2, RIGHTX, 256);
+
+right_links[? "rm_Arrow3"] = new ConstantTransitionRule(rm_Arrow2, LEFTX, 256);
+left_links[? "rm_Arrow2"] = new ConstantTransitionRule(rm_Arrow3, RIGHTX, 224);

@@ -16,6 +16,12 @@ with (obj_GeneralTriangleMinion) {
   }
 }
 
+if (boss_health <= 0) {
+  onEndOfBossFight();
+  instance_destroy();
+  exit;
+}
+
 // Create new objects if needed
 if (instance_number(obj_GeneralTriangle) < 1) {
   with (instance_create_layer(random_range(100, 1000), -64, "Instances", obj_GeneralTriangle)) {
