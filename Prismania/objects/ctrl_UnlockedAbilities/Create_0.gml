@@ -46,3 +46,6 @@ markCoin = function() {
 hasCoin = function() {
   return ds_map_exists(coined_rooms, room_get_name(room));
 }
+
+// DEBUG CODE
+wall_jump = true;
