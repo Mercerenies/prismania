@@ -23,6 +23,10 @@ spawn_y = undefined;
 respawn_x = undefined;
 respawn_y = undefined;
 
+// Bosses
+boss1_met = false;
+boss1_defeated = false;
+
 // Which dialogue you've already seen (this
 // ds_map is never freed, by design)
 visited_rooms = ds_map_create();

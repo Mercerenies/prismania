@@ -9,6 +9,7 @@
 
 // Can be used as a bitmask.
 enum World {
+  NONE = 0,
   REGULAR = 1,
   MIRROR = 2,
 }
@@ -23,4 +24,5 @@ enum DialogueMugshot {
   PROFESSOR = 0,
   GENERAL = 1,
   KING = 2,
+  OLD_GENERAL = 3, // Unused, old artwork
 }
