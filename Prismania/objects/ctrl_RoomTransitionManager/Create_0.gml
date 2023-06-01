@@ -75,13 +75,23 @@ left_links[? "rm_LoloHub"] = new SplitTransitionRule(
 
 right_links[? "rm_Arrow1"] = new SplitTransitionRule(
   300,
-  undefined, // TODO
+  new ConstantTransitionRule(rm_Middle1, LEFTX, 640),
   new ConstantTransitionRule(rm_LoloBoss, LEFTX, 192),
 );
 left_links[? "rm_LoloBoss"] = new ConstantTransitionRule(rm_Arrow1, RIGHTX, 672);
+left_links[? "rm_Middle1"] = new ConstantTransitionRule(rm_Arrow1, RIGHTX, 192);
 
 right_links[? "rm_Arrow2"] = new ConstantTransitionRule(rm_Arrow1, LEFTX, 256);
 left_links[? "rm_Arrow1"] = new ConstantTransitionRule(rm_Arrow2, RIGHTX, 256);
 
 right_links[? "rm_Arrow3"] = new ConstantTransitionRule(rm_Arrow2, LEFTX, 256);
 left_links[? "rm_Arrow2"] = new ConstantTransitionRule(rm_Arrow3, RIGHTX, 224);
+
+right_links[? "rm_Middle1"] = new ConstantTransitionRule(rm_Middle2, LEFTX, 576);
+left_links[? "rm_Middle2"] = new ConstantTransitionRule(rm_Middle1, RIGHTX, 352);
+
+right_links[? "rm_Middle2"] = new ConstantTransitionRule(rm_Middle3, LEFTX, 96);
+left_links[? "rm_Middle3"] = new ConstantTransitionRule(rm_Middle2, RIGHTX, 160);
+
+right_links[? "rm_Middle3"] = new ConstantTransitionRule(rm_Middle4, LEFTX, 608);
+left_links[? "rm_Middle4"] = new ConstantTransitionRule(rm_Middle3, RIGHTX, 480);

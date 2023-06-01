@@ -40,9 +40,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.057805"
-     inkscape:cx="231.45329"
-     inkscape:cy="513.61348"
+     inkscape:zoom="5.8203515"
+     inkscape:cx="405.48007"
+     inkscape:cy="374.35244"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -990,6 +990,16 @@
        y1="119.01905"
        x2="48.638794"
        y2="121.57447" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4010"
+       id="linearGradient1729"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.3576115,0,0,3.3576115,-162.88106,-345.96225)"
+       x1="80.528969"
+       y1="130.8405"
+       x2="84.427498"
+       y2="135.62994" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -6615,5 +6625,38 @@
          x="52.423729"
          y="126.77547"
          style="font-variation-settings:normal;vector-effect:none;fill:url(#linearGradient2500);fill-opacity:1;stroke:none;stroke-width:0.299458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">!!</tspan></text>
+    <circle
+       style="font-variation-settings:normal;vector-effect:none;fill:#706e71;fill-opacity:1;stroke:#000000;stroke-width:0.0326754;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="path1395-1"
+       cx="113.72504"
+       cy="101.76751"
+       r="12.574411"
+       inkscape:export-filename="NeutralSpringBig.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <circle
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1729);stroke-width:0.705099;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="circle1414-6"
+       cx="113.72504"
+       cy="101.76751"
+       r="12.039738"
+       inkscape:export-filename="NeutralSpringBig.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.844478;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1443-7"
+       sodipodi:cx="112.35647"
+       sodipodi:cy="102.50908"
+       sodipodi:expansion="4.2149301"
+       sodipodi:revolution="4.4274764"
+       sodipodi:radius="7.7814884"
+       sodipodi:argument="-21.066769"
+       sodipodi:t0="0.65135241"
+       inkscape:export-filename="NeutralSpringBig.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"
+       d="m 111.10322,102.26211 c -0.0297,-0.87515 0.77418,-1.51868 1.60386,-1.53221 1.21882,-0.0199 2.10683,1.10362 2.10814,2.26371 0.002,1.65691 -1.53058,2.85491 -3.11309,2.83588 -2.20591,-0.0265 -3.79067,-2.07335 -3.74092,-4.18656 0.0679,-2.883829 2.75193,-4.944342 5.5219,-4.850966 3.71011,0.125068 6.34861,3.588126 6.1959,7.160126 -0.0301,0.70399 -0.15974,1.40299 -0.38024,2.0721" />
   </g>
 </svg>
