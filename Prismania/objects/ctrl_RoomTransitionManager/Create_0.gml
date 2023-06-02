@@ -103,3 +103,6 @@ right_links[? "rm_Middle4"] = new SplitTransitionRule(
 );
 left_links[? "rm_MiddleBonus"] = new ConstantTransitionRule(rm_Middle4, RIGHTX, 192);
 left_links[? "rm_Middle5"] = new ConstantTransitionRule(rm_Middle4, RIGHTX, 608);
+
+right_links[? "rm_Middle5"] = new ConstantTransitionRule(rm_MiddleBoss, LEFTX, 608);
+left_links[? "rm_MiddleBoss"] = new ConstantTransitionRule(rm_Middle5, RIGHTX, 352);

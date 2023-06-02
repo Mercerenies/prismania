@@ -26,6 +26,8 @@ respawn_y = undefined;
 // Bosses
 boss1_met = false;
 boss1_defeated = false;
+boss2_met = false;
+boss2_defeated = false;
 
 // Which dialogue you've already seen (this
 // ds_map is never freed, by design)
@@ -55,3 +57,4 @@ hasCoin = function() {
 wall_jump = true;
 archery = true;
 bullet_time = true;
+boss2_met = true;
