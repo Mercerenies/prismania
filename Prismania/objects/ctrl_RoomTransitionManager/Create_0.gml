@@ -112,3 +112,19 @@ left_links[? "rm_Stairs1"] = new ConstantTransitionRule(rm_MiddleBoss, RIGHTX, 6
 
 right_links[? "rm_Stairs1"] = new ConstantTransitionRule(rm_Stairs2, LEFTX, 608);
 left_links[? "rm_Stairs2"] = new ConstantTransitionRule(rm_Stairs1, RIGHTX, 640);
+
+left_links[? "rm_Hub"] = new SplitTransitionRule(
+  300,
+  new ConstantTransitionRule(rm_Stairs2, RIGHTX, 608),
+  new ConstantTransitionRule(rm_LoloHub, RIGHTX, 160),
+);
+right_links[? "rm_Stairs2"] = new ConstantTransitionRule(rm_Hub, LEFTX, 160);
+right_links[? "rm_LoloHub"] = new SplitTransitionRule(
+  200,
+  new ConstantTransitionRule(rm_Hub, LEFTX, 576),
+  new ConstantTransitionRule(rm_DoubleJump1, LEFTX, 160),
+);
+left_links[? "rm_DoubleJump1"] = new ConstantTransitionRule(rm_LoloHub, RIGHTX, 576);
+
+right_links[? "rm_DoubleJump1"] = new ConstantTransitionRule(rm_DoubleJump2, LEFTX, 96);
+left_links[? "rm_DoubleJump2"] = new ConstantTransitionRule(rm_DoubleJump1, RIGHTX, 544);

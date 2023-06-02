@@ -58,3 +58,4 @@ wall_jump = true;
 archery = true;
 bullet_time = true;
 boss2_met = true;
+double_jump = true;
