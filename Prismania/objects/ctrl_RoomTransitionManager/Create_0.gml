@@ -106,3 +106,9 @@ left_links[? "rm_Middle5"] = new ConstantTransitionRule(rm_Middle4, RIGHTX, 608)
 
 right_links[? "rm_Middle5"] = new ConstantTransitionRule(rm_MiddleBoss, LEFTX, 608);
 left_links[? "rm_MiddleBoss"] = new ConstantTransitionRule(rm_Middle5, RIGHTX, 352);
+
+right_links[? "rm_MiddleBoss"] = new ConstantTransitionRule(rm_Stairs1, LEFTX, 608);
+left_links[? "rm_Stairs1"] = new ConstantTransitionRule(rm_MiddleBoss, RIGHTX, 608);
+
+right_links[? "rm_Stairs1"] = new ConstantTransitionRule(rm_Stairs2, LEFTX, 608);
+left_links[? "rm_Stairs2"] = new ConstantTransitionRule(rm_Stairs1, RIGHTX, 640);

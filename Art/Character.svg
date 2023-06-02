@@ -41,8 +41,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.057805"
-     inkscape:cx="-193.02095"
-     inkscape:cy="997.16594"
+     inkscape:cx="-82.006866"
+     inkscape:cy="551.10424"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -1053,11 +1053,33 @@
        x2="-29.935869"
        y2="259.88742"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2911"
+       x="-0.087525926"
+       width="1.1750519"
+       y="-0.051195525"
+       height="1.1023911">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.066327429"
+         id="feGaussianBlur2913" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       id="path2805"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;filter:url(#filter2911)"
+       inkscape:transform-center-x="0.011295573"
+       inkscape:transform-center-y="0.2517047"
+       d="m -11.278381,160.90387 c -0.234636,0.3873 -0.428998,0.79804 -0.669733,1.18143 -0.06853,0.14521 -0.2813,0.22313 -0.194321,0.3835 -0.06985,0.17791 0.191213,0.2708 0.239866,0.43379 0.219107,0.36467 0.401783,0.75054 0.628844,1.11065 0.08512,-0.002 0.117271,-0.14377 0.178508,-0.22933 0.188124,-0.32325 0.347655,-0.66362 0.55384,-0.97595 0.04926,-0.1251 0.268583,-0.19886 0.173453,-0.33101 0.09224,-0.18535 -0.159767,-0.27417 -0.217153,-0.43279 -0.228998,-0.37224 -0.413902,-0.77023 -0.647818,-1.13972 -0.02393,0.0558 -0.01869,0.0298 -0.04549,-5.7e-4 z"
+       inkscape:export-filename="DiamondBullet.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
     <path
        sodipodi:type="star"
        style="font-variation-settings:normal;vector-effect:none;fill:#e740ee;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;opacity:1;stop-opacity:1"
@@ -7113,6 +7135,33 @@
        cy="258.47308"
        r="2.9572368"
        inkscape:export-filename="FlyingBossWeakPoint.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path2769"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#2dd4ea;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       inkscape:transform-center-x="0.011295573"
+       inkscape:transform-center-y="0.2517047"
+       d="m -11.278381,160.90387 c -0.234636,0.3873 -0.428998,0.79804 -0.669733,1.18143 -0.06853,0.14521 -0.2813,0.22313 -0.194321,0.3835 -0.06985,0.17791 0.191213,0.2708 0.239866,0.43379 0.219107,0.36467 0.401783,0.75054 0.628844,1.11065 0.08512,-0.002 0.117271,-0.14377 0.178508,-0.22933 0.188124,-0.32325 0.347655,-0.66362 0.55384,-0.97595 0.04926,-0.1251 0.268583,-0.19886 0.173453,-0.33101 0.09224,-0.18535 -0.159767,-0.27417 -0.217153,-0.43279 -0.228998,-0.37224 -0.413902,-0.77023 -0.647818,-1.13972 -0.02393,0.0558 -0.01869,0.0298 -0.04549,-5.7e-4 z"
+       inkscape:export-filename="DiamondBullet.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path2915"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter2911);stop-color:#000000;stop-opacity:1"
+       inkscape:transform-center-x="0.011295573"
+       inkscape:transform-center-y="0.2517047"
+       d="m -5.6415508,161.81304 c -0.234636,0.3873 -0.428998,0.79804 -0.669733,1.18143 -0.06853,0.14521 -0.2813,0.22313 -0.194321,0.3835 -0.06985,0.17791 0.191213,0.2708 0.239866,0.43379 0.219107,0.36467 0.401783,0.75054 0.628844,1.11065 0.08512,-0.002 0.117271,-0.14377 0.178508,-0.22933 0.188124,-0.32325 0.347655,-0.66362 0.55384,-0.97595 0.04926,-0.1251 0.268583,-0.19886 0.173453,-0.33101 0.09224,-0.18535 -0.159767,-0.27417 -0.217153,-0.43279 -0.228998,-0.37224 -0.413902,-0.77023 -0.647818,-1.13972 -0.02393,0.0558 -0.01869,0.0298 -0.04549,-5.7e-4 z"
+       inkscape:export-filename="DiamondBulletReal.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
+    <path
+       id="path2917"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8130b9;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       inkscape:transform-center-x="0.011295573"
+       inkscape:transform-center-y="0.2517047"
+       d="m -5.6415508,161.81304 c -0.234636,0.3873 -0.428998,0.79804 -0.669733,1.18143 -0.06853,0.14521 -0.2813,0.22313 -0.194321,0.3835 -0.06985,0.17791 0.191213,0.2708 0.239866,0.43379 0.219107,0.36467 0.401783,0.75054 0.628844,1.11065 0.08512,-0.002 0.117271,-0.14377 0.178508,-0.22933 0.188124,-0.32325 0.347655,-0.66362 0.55384,-0.97595 0.04926,-0.1251 0.268583,-0.19886 0.173453,-0.33101 0.09224,-0.18535 -0.159767,-0.27417 -0.217153,-0.43279 -0.228998,-0.37224 -0.413902,-0.77023 -0.647818,-1.13972 -0.02393,0.0558 -0.01869,0.0298 -0.04549,-5.7e-4 z"
+       inkscape:export-filename="DiamondBulletReal.png"
        inkscape:export-xdpi="96.199997"
        inkscape:export-ydpi="96.199997" />
   </g>

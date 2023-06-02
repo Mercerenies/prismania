@@ -9,5 +9,5 @@ global.collisions_list = ds_list_create();
 global.voronoi_data = undefined;
 
 // DEBUG CODE
-room_goto(rm_MiddleBoss);
+room_goto(rm_Stairs2);
 //room_goto(rm_Start); // TODO Intro dialogue
