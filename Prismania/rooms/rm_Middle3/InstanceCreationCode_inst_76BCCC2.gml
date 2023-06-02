@@ -1,1 +1,1 @@
-max_radius = 200;
+max_radius = 260;

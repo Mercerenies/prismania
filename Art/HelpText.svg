@@ -103,5 +103,29 @@
          y="134.42993"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
          id="tspan3598">BUTTON to attack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="105.39408"
+       y="185.37445"
+       id="text835-3-6-0"
+       inkscape:export-filename="BackspaceToRestart.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         x="105.39408"
+         y="185.37445"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="tspan3598-8">BACKSPACE to</tspan><tspan
+         sodipodi:role="line"
+         x="105.39408"
+         y="198.60358"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="tspan876">restart current</tspan><tspan
+         sodipodi:role="line"
+         x="105.39408"
+         y="211.8327"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="tspan878">room</tspan></text>
   </g>
 </svg>

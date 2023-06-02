@@ -106,6 +106,7 @@ double_jump_flag = true;
 wall_jump_timer = 0;
 wall_jump_dir = -1;
 wall_jump_last_dir = 0;
+wall_jump_height = -999;
 
 // Timer for jump grace periods
 last_ground_timer = 0;

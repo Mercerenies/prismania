@@ -37,6 +37,7 @@ if (keyUpPressed()) {
     velocity_x = 6 * wall_jump_dir;
     wall_jump_last_dir = wall_jump_dir;
     wall_jump_timer = 999; // Make sure we don't spam these in a short time period.
+    wall_jump_height = y;
   } else if (double_jump_flag && ctrl_UnlockedAbilities.double_jump) {
     // Double jump
     double_jump_flag = false;
@@ -53,6 +54,7 @@ if (isPressedOnWall(self) && (velocity_y > 3)) {
 if (isOnGround(self)) {
   double_jump_flag = true;
   wall_jump_last_dir = 0;
+  wall_jump_height = -999;
   last_ground_timer = 0;
 }
 
@@ -63,12 +65,12 @@ if (isPressedOnWall(self)) {
     x += 2;
     var right_wall = collidesWith(self, par_Solid);
     x -= 1;
-    if ((left_wall) && (wall_jump_last_dir != 1)) {
+    if ((left_wall) && ((wall_jump_last_dir != 1) || (wall_jump_height < y))) {
       // Wall jump to right
       wall_jump_dir = 1;
       wall_jump_timer = 0;
     }
-    if ((right_wall) && (wall_jump_last_dir != -1)) {
+    if ((right_wall) && ((wall_jump_last_dir != -1) || (wall_jump_height < y))) {
       // Wall jump to right
       wall_jump_dir = -1;
       wall_jump_timer = 0;

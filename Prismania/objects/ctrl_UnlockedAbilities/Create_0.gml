@@ -54,3 +54,4 @@ hasCoin = function() {
 // DEBUG CODE
 wall_jump = true;
 archery = true;
+bullet_time = true;
