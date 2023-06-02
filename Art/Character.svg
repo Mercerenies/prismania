@@ -40,9 +40,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.11561"
-     inkscape:cx="-162.59763"
-     inkscape:cy="1072.9832"
+     inkscape:zoom="2.057805"
+     inkscape:cx="-193.02095"
+     inkscape:cy="997.16594"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -53,6 +53,18 @@
      inkscape:snap-global="false" />
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2681">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop2677" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop2679" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient2377">
@@ -1032,11 +1044,60 @@
        y1="275.43921"
        x2="7.2152667"
        y2="293.69693" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2681"
+       id="linearGradient2693"
+       x1="-32.843243"
+       y1="256.67303"
+       x2="-29.935869"
+       y2="259.88742"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       sodipodi:type="star"
+       style="font-variation-settings:normal;vector-effect:none;fill:#e740ee;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;opacity:1;stop-opacity:1"
+       id="path2650"
+       sodipodi:sides="3"
+       sodipodi:cx="-57.469695"
+       sodipodi:cy="284.91491"
+       sodipodi:r1="7.4598727"
+       sodipodi:r2="3.7299366"
+       sodipodi:arg1="1.54494"
+       sodipodi:arg2="2.5921376"
+       inkscape:flatsided="true"
+       inkscape:rounded="0.03"
+       inkscape:randomized="0"
+       inkscape:transform-center-x="0.095846478"
+       inkscape:transform-center-y="1.7118147"
+       inkscape:export-filename="FlyingBossMirrored.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"
+       d="m -57.276833,292.3723 c -0.387496,0.01 -6.932644,-10.67846 -6.747575,-11.01905 0.18507,-0.34059 12.714133,-0.66462 12.91656,-0.33405 0.202427,0.33057 -5.781488,11.34307 -6.168985,11.3531 z" />
+    <path
+       sodipodi:type="star"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#883720;fill-opacity:1;stroke:#000000;stroke-width:0.10999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="path2630"
+       sodipodi:sides="3"
+       sodipodi:cx="-2.8286608"
+       sodipodi:cy="283.5733"
+       sodipodi:r1="7.4598727"
+       sodipodi:r2="3.7299366"
+       sodipodi:arg1="1.54494"
+       sodipodi:arg2="2.5921376"
+       inkscape:flatsided="true"
+       inkscape:rounded="0.03"
+       inkscape:randomized="0"
+       d="m -2.6357973,291.03068 c -0.3874968,0.01 -6.9326445,-10.67845 -6.747575,-11.01904 0.1850696,-0.34059 12.7141325,-0.66462 12.9165597,-0.33405 0.2024273,0.33057 -5.7814879,11.34307 -6.1689847,11.35309 z"
+       inkscape:transform-center-x="0.095846478"
+       inkscape:transform-center-y="1.7118147"
+       inkscape:export-filename="FlyingBoss.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
     <g
        id="g2467"
        transform="matrix(1.2067416,0,0,1.2067416,-20.486322,-43.257081)"
@@ -7045,5 +7106,14 @@
        inkscape:export-xdpi="96.199997"
        inkscape:export-ydpi="96.199997"
        d="m -57.218492,270.69915 c 0.888208,0.0131 14.881819,25.09538 14.426403,25.85806 -0.455416,0.76268 -29.174141,0.34034 -29.606933,-0.4354 -0.432792,-0.77574 14.292322,-25.43572 15.18053,-25.42266 z" />
+    <circle
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#d2eef1;fill-opacity:1;stroke:url(#linearGradient2693);stroke-width:0.279;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="path2628"
+       cx="-31.518131"
+       cy="258.47308"
+       r="2.9572368"
+       inkscape:export-filename="FlyingBossWeakPoint.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997" />
   </g>
 </svg>
