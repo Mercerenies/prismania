@@ -109,9 +109,6 @@ if (ctrl_UnlockedAbilities.archery) {
   } else {
     if (leftMousePressed() && (ranged_attack_cooldown <= 0) && (instance_number(obj_Arrow) < 3)) {
       bow_out = true;
-      if ((!isOnGround(self)) && (ctrl_UnlockedAbilities.bullet_time)) {
-        ctrl_BulletTimeManager.enterBulletTime();
-      }
     }
   }
 }
@@ -120,8 +117,12 @@ if (ranged_attack_cooldown > 0) {
 }
 
 // End bullet time
-if (isOnGround(self) || !bow_out) {
-  ctrl_BulletTimeManager.exitBulletTime();
+if (ctrl_UnlockedAbilities.bullet_time) {
+  if (bow_out) {
+    ctrl_BulletTimeManager.enterBulletTime();
+  } else {
+    ctrl_BulletTimeManager.exitBulletTime();
+  }
 }
 
 // Bow drawn animation

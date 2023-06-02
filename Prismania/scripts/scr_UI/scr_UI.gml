@@ -26,7 +26,7 @@ function showUpgradeBoxFor(upgrade_index) {
     break;
   case 2: // Bullet Time
     title = "Unlocked Bullet Time!";
-    text = "Take a deep breath and focus. Drawing your bow in midair slows time down.";
+    text = "Take a deep breath and focus. Drawing your bow slows time down.";
     break;
   case 3: // Double Jump
     title = "Unlocked Double Jump!";

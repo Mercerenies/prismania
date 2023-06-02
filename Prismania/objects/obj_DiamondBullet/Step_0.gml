@@ -8,7 +8,7 @@ if (isShowingModal()) {
 }
 
 if (has_struck) {
-  radius = lerp(0, max_radius, image_alpha);
+  radius = min(radius, lerp(0, max_radius, image_alpha));
 } else {
   radius = toward(radius, max_radius, 6 * bt);
 }
