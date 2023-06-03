@@ -141,8 +141,12 @@ right_links[? "rm_Crystal1"] = new ConstantTransitionRule(rm_Crystal2, LEFTX, 41
 left_links[? "rm_Crystal2"] = new ConstantTransitionRule(rm_Crystal1, RIGHTX, 672);
 
 left_links[? "rm_Top2"] = new SplitTransitionRule(
-  170,
-  undefined,
+  200,
+  new ConstantTransitionRule(rm_TopBonus, RIGHTX, 640),
   new ConstantTransitionRule(rm_Top1, RIGHTX, 96),
 );
 right_links[? "rm_Top1"] = new ConstantTransitionRule(rm_Top2, LEFTX, 640);
+right_links[? "rm_TopBonus"] = new ConstantTransitionRule(rm_Top2, LEFTX, 160);
+
+right_links[? "rm_Top2"] = new ConstantTransitionRule(rm_FinalBoss, LEFTX, 640);
+left_links[? "rm_FinalBoss"] = new ConstantTransitionRule(rm_Top2, RIGHTX, 128);
