@@ -28,6 +28,8 @@ boss1_met = false;
 boss1_defeated = false;
 boss2_met = false;
 boss2_defeated = false;
+boss3_met = false;
+// No boss3_defeated, since the game goes to credits after that.
 
 // Which dialogue you've already seen (this
 // ds_map is never freed, by design)
@@ -55,8 +57,9 @@ hasCoin = function() {
 
 // DEBUG CODE
 wall_jump = true;
-//archery = true;
-//bullet_time = true;
-//boss2_met = true;
-//double_jump = true;
-//personal_crystal = true;
+archery = true;
+bullet_time = true;
+boss2_met = true;
+double_jump = true;
+personal_crystal = true;
+boss3_met = true;

@@ -71,8 +71,9 @@ onDraw = function(world) {
     px = mean(obj_Player.bbox_left, obj_Player.bbox_right);
     py = mean(obj_Player.bbox_top, obj_Player.bbox_bottom);
   }
-  draw_sprite_ext(spr_CannonHead, 0, c1x, c1y, 1, 1, point_direction(c1x, c1y, px, py), c_white, 1);
-  draw_sprite_ext(spr_CannonHead, 0, c2x, c2y, 1, 1, point_direction(c2x, c2y, px, py), c_white, 1);
+  var idx = (world == World.MIRROR) ? 1 : 0;
+  draw_sprite_ext(spr_CannonHead, idx, c1x, c1y, 1, 1, point_direction(c1x, c1y, px, py), c_white, 1);
+  draw_sprite_ext(spr_CannonHead, idx, c2x, c2y, 1, 1, point_direction(c2x, c2y, px, py), c_white, 1);
 
 }
 

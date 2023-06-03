@@ -148,5 +148,5 @@ left_links[? "rm_Top2"] = new SplitTransitionRule(
 right_links[? "rm_Top1"] = new ConstantTransitionRule(rm_Top2, LEFTX, 640);
 right_links[? "rm_TopBonus"] = new ConstantTransitionRule(rm_Top2, LEFTX, 160);
 
-right_links[? "rm_Top2"] = new ConstantTransitionRule(rm_FinalBoss, LEFTX, 640);
+right_links[? "rm_Top2"] = new ConstantTransitionRule(rm_FinalBoss, LEFTX, 608);
 left_links[? "rm_FinalBoss"] = new ConstantTransitionRule(rm_Top2, RIGHTX, 128);
