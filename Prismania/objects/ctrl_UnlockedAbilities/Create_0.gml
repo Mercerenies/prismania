@@ -59,3 +59,4 @@ archery = true;
 bullet_time = true;
 boss2_met = true;
 double_jump = true;
+personal_crystal = true;

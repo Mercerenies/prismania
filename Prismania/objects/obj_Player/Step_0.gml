@@ -157,6 +157,7 @@ if (rightMousePressed()) {
 */
 
 // Update personal crystal
+has_personal_crystal = ctrl_UnlockedAbilities.personal_crystal;
 if (has_personal_crystal) {
   if (rightMouseDown()) {
     personal_crystal_radius = toward(personal_crystal_radius, PLAYER_PERSONAL_CRYSTAL_RADIUS, bt * 5);

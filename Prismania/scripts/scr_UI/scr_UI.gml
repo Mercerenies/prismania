@@ -34,7 +34,7 @@ function showUpgradeBoxFor(upgrade_index) {
     break;
   case 4: // Crystal Core
     title = "Unlocked Crystal Core!";
-    text = "Pick up portable crystals, and then hold RIGHT MOUSE to activate your own portable crystal core.";
+    text = "Hold SHIFT or RIGHT MOUSE to activate your own portable crystal core.";
     break;
   }
   showUpgradeBox(spr_PermanentUpgrade, upgrade_index, title, text);

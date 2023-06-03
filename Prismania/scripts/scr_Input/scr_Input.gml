@@ -20,11 +20,11 @@ function leftMousePressed() {
 }
 
 function rightMousePressed() {
-  return mouse_check_button_pressed(mb_right);
+  return mouse_check_button_pressed(mb_right) || keyboard_check_pressed(vk_shift);
 }
 
 function rightMouseDown() {
-  return mouse_check_button(mb_right);
+  return mouse_check_button(mb_right) || keyboard_check(vk_shift);
 }
 
 function backspacePressed() {
