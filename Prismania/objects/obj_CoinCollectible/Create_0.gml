@@ -4,8 +4,7 @@ event_inherited();
 onCollect = function() {
   if (!ctrl_UnlockedAbilities.has_collected_coin) {
     ctrl_UnlockedAbilities.has_collected_coin = true;
-    // TODO Put the correct number in here (also, a popup for every coin showing how many you have)
-    showUpgradeBox(spr_CoinCollectibleBig, 0, "Got a Bonus Coin!", "There are ??? of these in total. See if you can find them all!");
+    showUpgradeBox(spr_CoinCollectibleBig, 0, "Got a Bonus Coin!", "There are seven of these in total. See if you can find them all!");
   }
   ctrl_UnlockedAbilities.markCoin();
   instance_destroy();

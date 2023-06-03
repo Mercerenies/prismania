@@ -54,12 +54,3 @@ markCoin = function() {
 hasCoin = function() {
   return ds_map_exists(coined_rooms, room_get_name(room));
 }
-
-// DEBUG CODE
-wall_jump = true;
-archery = true;
-bullet_time = true;
-boss2_met = true;
-double_jump = true;
-personal_crystal = true;
-boss3_met = true;

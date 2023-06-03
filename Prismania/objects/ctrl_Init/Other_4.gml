@@ -9,5 +9,10 @@ global.collisions_list = ds_list_create();
 global.voronoi_data = undefined;
 
 // DEBUG CODE
+//room_goto(rm_Intro);
 room_goto(rm_FinalBoss);
-//room_goto(rm_Start); // TODO Intro dialogue
+ctrl_UnlockedAbilities.wall_jump = true;
+ctrl_UnlockedAbilities.archery = true;
+ctrl_UnlockedAbilities.double_jump = true;
+ctrl_UnlockedAbilities.bullet_time = true;
+ctrl_UnlockedAbilities.personal_crystal = true;

@@ -26,5 +26,8 @@ if (leftMousePressed()) {
   } else {
     display_text = "";
     dia_index++;
+    if (dia_index < array_length(dia)) {
+      dia[dia_index].onTrigger();
+    }
   }
 }
