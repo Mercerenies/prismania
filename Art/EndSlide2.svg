@@ -399,17 +399,19 @@
        id="path5946"
        sodipodi:nodetypes="cccsccc" />
     <path
-       id="path6116"
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#28d5ff;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-       d="m 243.10543,18.405742 a 76.608405,175.10492 0 0 0 -0.28991,15.204757 76.608405,175.10492 0 0 0 25.00416,129.417381 c 35.0393,-3.13525 62.37491,-5.56245 63.08246,-5.56245 2.13543,0 -2.66909,-103.568333 -2.66909,-103.568333 z" />
+       id="path9228"
+       style="fill:#28d5ff;stroke-width:1.00157;stop-color:#000000"
+       d="M 1118.9766 119.84375 A 918.8252 1015.844 0 0 0 1112.8633 236.83984 A 918.8252 1015.844 0 0 0 1376.6699 949.22852 C 1403.875 789.21288 1430.4855 638.52539 1434.2676 638.52539 C 1442.3385 638.52539 1424.1777 247.08789 1424.1777 247.08789 L 1118.9766 119.84375 z "
+       transform="matrix(0.26458333,0,0,0.26458333,-48.580936,-11.477914)" />
     <path
        style="fill:#acacac;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 239.87958,17.061118 1.86851,-117.181498 80.61232,-0.53386 5.87243,154.551437 z"
        id="path5965" />
     <path
        id="ellipse6118"
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#16b6dc;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-       d="m 322.36054,-100.65417 -52.29344,0.34623 A 76.608405,175.10492 0 0 0 243.10543,18.405742 l 85.12762,35.491355 z" />
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#16b6dc;fill-opacity:1;stroke:none;stroke-width:1.00157;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="M 1401.9844 -337.04492 L 1273.0059 -336.19141 A 918.8252 1015.844 0 0 0 1118.9785 119.8418 L 1424.1797 247.08594 L 1401.9844 -337.04492 z "
+       transform="matrix(0.26458333,0,0,0.26458333,-48.580936,-11.477914)" />
     <rect
        style="font-variation-settings:normal;vector-effect:none;fill:#1978e3;fill-opacity:1;stroke:#000000;stroke-width:0.473364;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        id="rect3715-3"

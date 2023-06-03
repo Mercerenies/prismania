@@ -107,6 +107,7 @@
     {"name":"rm_Hub","order":2,"path":"rooms/rm_Hub/rm_Hub.yy",},
     {"name":"obj_EvilPrismoid","order":1,"path":"objects/obj_EvilPrismoid/obj_EvilPrismoid.yy",},
     {"name":"spr_ArrowMaskSimulator","order":7,"path":"sprites/spr_ArrowMaskSimulator/spr_ArrowMaskSimulator.yy",},
+    {"name":"rm_Finale","order":1,"path":"rooms/rm_Finale/rm_Finale.yy",},
     {"name":"spr_RegularWallMask","order":3,"path":"sprites/spr_RegularWallMask/spr_RegularWallMask.yy",},
     {"name":"obj_ConstantCannon","order":4,"path":"objects/obj_ConstantCannon/obj_ConstantCannon.yy",},
     {"name":"rm_WallJump2","order":7,"path":"rooms/rm_WallJump2/rm_WallJump2.yy",},

@@ -117,7 +117,11 @@ onStrike = function(strike) {
 }
 
 onEndOfBossFight = function() {
-  /////
+  summonDia([
+    new Dia(DialogueMugshot.KING, "Nooooooooooo! Not again! I must rule! I'm the rightful king of everythiiiiiing!"),
+    new Dia(DialogueMugshot.KING, "This isn't the last you've seen of me, Prismaaaaaaaaaaaaan!"),
+    new Dia(DialogueMugshot.KING, "", function() { room_goto(rm_Finale); }),
+  ]);
 }
 
 for (var i = 0; i < 360; i += 45) {
