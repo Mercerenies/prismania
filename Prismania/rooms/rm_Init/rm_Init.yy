@@ -10,6 +10,7 @@
     {"name":"inst_7B7DBB3B","path":"rooms/rm_Init/rm_Init.yy",},
     {"name":"inst_39B175E1","path":"rooms/rm_Init/rm_Init.yy",},
     {"name":"inst_5C06F176","path":"rooms/rm_Init/rm_Init.yy",},
+    {"name":"inst_388C9A38","path":"rooms/rm_Init/rm_Init.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -17,6 +18,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B7DBB3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ctrl_Init","path":"objects/ctrl_Init/ctrl_Init.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39B175E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ctrl_UnlockedAbilities","path":"objects/ctrl_UnlockedAbilities/ctrl_UnlockedAbilities.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C06F176","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ctrl_RoomTransitionManager","path":"objects/ctrl_RoomTransitionManager/ctrl_RoomTransitionManager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_388C9A38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ctrl_Splash","path":"objects/ctrl_Splash/ctrl_Splash.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":683.0,"y":384.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

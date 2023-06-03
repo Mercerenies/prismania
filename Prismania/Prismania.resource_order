@@ -31,6 +31,7 @@
     {"name":"Boss 3","order":5,"path":"folders/Boss Fight Scripting/Boss 3.yy",},
     {"name":"Cutscenes","order":23,"path":"folders/Cutscenes.yy",},
     {"name":"Cutscenes","order":8,"path":"folders/Rooms/Cutscenes.yy",},
+    {"name":"Menus","order":24,"path":"folders/Menus.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_BigNeutralSpring","order":8,"path":"objects/obj_BigNeutralSpring/obj_BigNeutralSpring.yy",},
@@ -100,6 +101,7 @@
     {"name":"spr_MirrorSpike","order":2,"path":"sprites/spr_MirrorSpike/spr_MirrorSpike.yy",},
     {"name":"obj_IntroSlides","order":1,"path":"objects/obj_IntroSlides/obj_IntroSlides.yy",},
     {"name":"obj_Boss3TriggerZone","order":2,"path":"objects/obj_Boss3TriggerZone/obj_Boss3TriggerZone.yy",},
+    {"name":"spr_Splash","order":1,"path":"sprites/spr_Splash/spr_Splash.yy",},
     {"name":"spr_WallsTileset","order":1,"path":"sprites/spr_WallsTileset/spr_WallsTileset.yy",},
     {"name":"spr_BossWall","order":14,"path":"sprites/spr_BossWall/spr_BossWall.yy",},
     {"name":"obj_PlayerHeadDeath","order":1,"path":"objects/obj_PlayerHeadDeath/obj_PlayerHeadDeath.yy",},
