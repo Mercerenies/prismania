@@ -30,6 +30,7 @@ default:
 summonDia([
   new Dia(DialogueMugshot.PROFESSOR, "I'm happy to announce that the conflict between Prismania and the Mirrorlands may be coming to an end."),
   new Dia(DialogueMugshot.PROFESSOR, "It's been determined that the culprit behind the sudden conflict was none other than the evil Icosaking, who has now been apprehended.", function() { obj_FinaleSlides.image_index = 4 }),
+  new Dia(DialogueMugshot.PROFESSOR, "We've learned from Ambassador Circlegirl that the Icosaking tried to take over the mainland once before and failed."),
   new Dia(DialogueMugshot.PROFESSOR, "Peace talks are underway with top Mirrorlands generals. We have high hopes that we'll be able to negotiate a peaceful resolution to this conflict."),
   new Dia(DialogueMugshot.PROFESSOR, "And all of this was only possible thanks to the bravery of Prisman!"),
   new Dia(DialogueMugshot.PROFESSOR, "Thank you, Prisman, for playing!", function() { obj_FinaleSlides.image_index = 5 }),
