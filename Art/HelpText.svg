@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="182.83972"
-     inkscape:cy="369.94352"
+     inkscape:cx="463.73365"
+     inkscape:cy="782.76685"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -35,7 +35,8 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -105,27 +106,101 @@
          id="tspan3598">BUTTON to attack</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="105.39408"
-       y="185.37445"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="44.539913"
+       y="315.39825"
        id="text835-3-6-0"
+       inkscape:export-filename="NewGame.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         x="44.539913"
+         y="315.39825"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+         id="tspan878">NEW GAME</tspan></text>
+    <g
+       aria-label="PRISMANIA"
+       id="text835-3-6-0-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:43.1189px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+       inkscape:export-filename="PrismaniaTitle.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997">
+      <path
+         d="m 11.116081,260.21414 h 9.79018 q 1.031653,0 1.810657,-0.4632 0.800058,-0.48424 1.242195,-1.34746 0.442137,-0.86322 0.442137,-1.97909 v 0 q 0,-1.13693 -0.442137,-2.00015 -0.421083,-0.88427 -1.221141,-1.34746 -0.779004,-0.48425 -1.831711,-0.48425 h -9.79018 v -5.55829 h 9.642801 q 2.863364,0 5.031942,1.17903 2.189631,1.15798 3.389718,3.28445 1.200087,2.12647 1.200087,4.92667 v 0 q 0,2.8002 -1.200087,4.92667 -1.200087,2.10542 -3.389718,3.26339 -2.168578,1.15798 -5.031942,1.15798 h -9.642801 z m -2.6317689,-13.1799 h 5.7688369 v 30.61273 H 8.4843121 Z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9853" />
+      <path
+         d="m 37.202173,259.772 h 10.6534 q 0.884274,0 1.558007,-0.44214 0.673733,-0.44214 1.031654,-1.26325 0.378974,-0.82111 0.400028,-1.89487 v 0 q 0,-1.07376 -0.378974,-1.89487 -0.357921,-0.82112 -1.031654,-1.26325 -0.673732,-0.44214 -1.579061,-0.44214 h -10.6534 v -5.5583 h 11.116591 q 2.526498,0 4.442426,1.13693 1.915928,1.13692 2.968635,3.22128 1.052708,2.06331 1.052708,4.80035 v 0 q 0,2.73704 -1.052708,4.8214 -1.052707,2.06331 -2.989689,3.20023 -1.915928,1.13692 -4.421372,1.13692 H 37.202173 Z M 34.90727,247.01318 h 5.768838 v 30.63379 H 34.90727 Z m 8.737473,17.36968 6.168866,-0.96849 8.253227,14.2326 h -6.989978 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9855" />
+      <path
+         d="M 68.572858,277.64697 H 62.59348 v -30.61273 h 5.979378 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9857" />
+      <path
+         d="m 84.510852,277.96278 q -2.189632,0 -4.295047,-0.44213 -2.084361,-0.44214 -3.937126,-1.28431 -1.831711,-0.86322 -3.284448,-2.0633 v 0 l 2.673877,-4.75824 v 0 q 1.768549,1.45274 4.084506,2.25279 2.315956,0.77901 4.758238,0.77901 2.821256,0 4.379263,-0.94744 1.558007,-0.96849 1.558007,-2.71598 v -0.0211 q 0,-1.22114 -0.694787,-1.93698 -0.694787,-0.71584 -1.810657,-1.05271 -1.11587,-0.33686 -2.863364,-0.61057 -0.06316,-0.0211 -0.126325,-0.0211 -0.04211,0 -0.105271,-0.0211 l -0.463191,-0.0632 q -3.073906,-0.48424 -5.095105,-1.20009 -2.021198,-0.73689 -3.431826,-2.54755 -1.410628,-1.83171 -1.410628,-5.17932 v -0.0211 q 0,-2.96864 1.326411,-5.07405 1.326412,-2.10542 3.85291,-3.20023 2.526498,-1.11587 6.105703,-1.11587 1.642224,0 3.34761,0.37897 1.726441,0.37897 3.368664,1.09482 1.642224,0.71584 3.116015,1.72644 v 0 l -2.442282,4.88456 v 0 q -1.768548,-1.22114 -3.70553,-1.89487 -1.915928,-0.67374 -3.684477,-0.67374 -2.652823,0 -4.105559,0.88428 -1.452736,0.86322 -1.452736,2.44228 v 0.0211 q 0,1.32641 0.757949,2.10542 0.757949,0.75795 1.873819,1.11587 1.11587,0.35792 3.137069,0.75795 0.08422,0.0211 0.168433,0.0421 0.08422,0 0.168433,0.0211 0.126325,0.0211 0.231596,0.0632 0.126325,0.0211 0.25265,0.0421 2.905473,0.56846 4.842454,1.38957 1.958036,0.80006 3.263394,2.61072 1.305357,1.7896 1.305357,4.90562 v 0.0421 q 0,2.92653 -1.36852,5.01089 -1.36852,2.08436 -4.000288,3.17918 -2.610715,1.09481 -6.295191,1.09481 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9859" />
+      <path
+         d="m 120.28185,247.03424 h 7.60055 v 30.61273 h -5.24249 v -23.77013 l 0.21055,1.34746 -5.85306,19.0119 h -5.0951 l -5.85306,-18.59081 0.21055,-1.76855 v 23.77013 h -5.24249 v -30.61273 h 7.60055 l 5.832,20.63307 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9861" />
+      <path
+         d="m 144.54467,245.44674 h 0.48842 l 13.29361,32.20023 h -6.21097 c 0,0 -14.69909,-0.0301 -14.65369,0 h -6.21098 z m -7.67215,21.73632 h 16.10643 c 1.63295,9.44358 -15.72845,7.5537 -16.10643,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9863"
+         sodipodi:nodetypes="cccccccccc" />
+      <path
+         d="m 162.11645,247.03424 h 7.05314 l 11.3903,23.45432 -0.5053,0.54741 v -24.00173 h 5.51619 v 30.59168 h -7.09525 l -11.34819,-23.0964 0.5053,-0.54741 v 23.64381 h -5.51619 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9865" />
+      <path
+         d="m 197.8664,277.64697 h -5.97938 v -30.61273 h 5.97938 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9867" />
+      <path
+         d="m 213.86561,245.44674 h 0.48842 l 13.29361,32.20023 h -6.21097 c 0,0 -14.69909,-0.0301 -14.65369,0 H 200.572 Z m -7.67215,21.73632 h 16.10643 c 1.63295,9.44358 -15.72845,7.5537 -16.10643,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07797"
+         id="path9876"
+         sodipodi:nodetypes="cccccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="113.66748"
+       y="182.53964"
+       id="text835-3-6-0-1"
        inkscape:export-filename="BackspaceToRestart.png"
        inkscape:export-xdpi="96.199997"
        inkscape:export-ydpi="96.199997"><tspan
          sodipodi:role="line"
-         x="105.39408"
-         y="185.37445"
+         x="113.66748"
+         y="182.53964"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         id="tspan3598-8">BACKSPACE to</tspan><tspan
+         id="tspan3598-8-4">BACKSPACE to</tspan><tspan
          sodipodi:role="line"
-         x="105.39408"
-         y="198.60358"
+         x="113.66748"
+         y="195.76877"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         id="tspan876">restart current</tspan><tspan
+         id="tspan876-5">restart current</tspan><tspan
          sodipodi:role="line"
-         x="105.39408"
-         y="211.8327"
+         x="113.66748"
+         y="208.99789"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         id="tspan878">room</tspan></text>
+         id="tspan878-8">room</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="153.01907"
+       y="314.6423"
+       id="text9917"
+       inkscape:export-filename="Continue.png"
+       inkscape:export-xdpi="96.199997"
+       inkscape:export-ydpi="96.199997"><tspan
+         sodipodi:role="line"
+         x="153.01907"
+         y="314.6423"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+         id="tspan9919">CONTINUE</tspan></text>
   </g>
 </svg>

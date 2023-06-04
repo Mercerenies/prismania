@@ -14,4 +14,5 @@ if ((!is_undefined(ctrl_UnlockedAbilities.spawn_x)) && (!is_undefined(ctrl_Unloc
     ctrl_UnlockedAbilities.respawn_y = undefined;
   }
 
+  saveGame();
 }

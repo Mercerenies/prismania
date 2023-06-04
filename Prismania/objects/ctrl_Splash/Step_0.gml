@@ -4,5 +4,5 @@ image_index = ((_tick < 3) ? 0 : 1);
 var a = clamp(1.5 - abs((_tick % 3) - 1.5), 0, 1);
 image_alpha = a;
 if ((_tick >= 6) || (leftMouseReleased())) {
-  room_goto(rm_Intro); // TODO Menu
+  room_goto(rm_MainMenu);
 }

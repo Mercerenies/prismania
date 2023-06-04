@@ -6,6 +6,7 @@
 #macro ARROW_GRAVITY_CONSTANT (GRAVITY_CONSTANT / 6)
 #macro BULLET_TIME_SPEED_MULTIPLIER 0.1
 #macro PLAYER_PERSONAL_CRYSTAL_RADIUS 80
+#macro FILENAME "savegame_prismania.json"
 
 // Can be used as a bitmask.
 enum World {

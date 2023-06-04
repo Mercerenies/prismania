@@ -35,5 +35,5 @@ summonDia([
   new Dia(DialogueMugshot.PROFESSOR, "And all of this was only possible thanks to the bravery of Prisman!"),
   new Dia(DialogueMugshot.PROFESSOR, "Thank you, Prisman, for playing!", function() { obj_FinaleSlides.image_index = 5 }),
   coin_dialogue,
-  new Dia(DialogueMugshot.PROFESSOR, "", function() { /* TODO Goto main menu room */ }),
+  new Dia(DialogueMugshot.PROFESSOR, "", function() { room_goto(rm_MainMenu); }),
 ]);
