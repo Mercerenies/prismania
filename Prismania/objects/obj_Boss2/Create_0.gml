@@ -90,7 +90,7 @@ onEndOfBossFight = function() {
   summonDia([
     new Dia(DialogueMugshot.GENERAL, "Urgh! You've bested me again, Prisman! But it doesn't matter."),
     new Dia(DialogueMugshot.GENERAL, "The King's plan is nearly ready. If you can reach him, he'll do you the honor of killing you himself."),
-    new Dia(DialogueMugshot.GENERAL, "But you don't stand a change. The King is so much stronger than I am! Mwahahahahaha!"),
+    new Dia(DialogueMugshot.GENERAL, "But you don't stand a chance. The King is so much stronger than I am! Mwahahahahaha!"),
   ]);
   setBossWalls(false);
   ctrl_UnlockedAbilities.boss2_defeated = true;

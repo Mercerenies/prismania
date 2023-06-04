@@ -8,8 +8,11 @@ var objects = arrayOf(par_PhysicalObject);
 array_sort(objects, function(a, b) { return real(a.id) - real(b.id); });
 
 // Draw regular world
-draw_set_color($4C4C4C); // DEBUG CODE
-draw_rectangle(0, 0, room_width, room_height, false); // DEBUG CODE
+draw_set_color($4C4C4C);
+draw_rectangle(0, 0, room_width, room_height, false);
+with (par_AnimatedTriangle) {
+  onDraw(World.REGULAR);
+}
 draw_tilemap(tileset_both, 0, 0);
 draw_tilemap(tileset_regular, 0, 0);
 with (obj_HelpText) {
@@ -23,8 +26,11 @@ for (var i = 0; i < array_length(objects); i++) {
 
 // Draw mirror world
 surface_set_target(mirror_surface);
-draw_set_color(c_aqua); // DEBUG CODE
-draw_rectangle(0, 0, room_width, room_height, false); // DEBUG CODE
+draw_set_color(c_aqua);
+draw_rectangle(0, 0, room_width, room_height, false);
+with (par_AnimatedTriangle) {
+  onDraw(World.MIRROR);
+}
 draw_tilemap(tileset_both, 0, 0);
 draw_tilemap(tileset_mirror, 0, 0);
 with (obj_HelpText) {
